@@ -26,7 +26,7 @@
 
 ## Why I Built This
 
-Since the AI revolution began, my workflow changed completely—but not entirely for the better.
+Since the AI revolution began, my workflow changed completely - but not entirely for the better.
 
 I found myself constantly writing content in various apps (Slack, Gmail, Notes, VS Code) and then interrupting my flow to:
 1. Copy the text.
@@ -43,27 +43,28 @@ It was exhausting. The constant context switching was killing my focus. I wanted
 
 Echoo brings AI text transformation directly to your fingertips. Select text anywhere on your Mac, hit a shortcut, and watch it transform instantly. No tab switching. No copy-pasting. Just flow.
 
+## Why Not on the App Store?
+
+For Echoo to work its magic - selecting and transforming text in *any* app on your Mac - it needs access to macOS Accessibility APIs. These APIs let Echoo read and modify text across all your applications.
+
+Here's the catch: Apple requires all App Store apps to run in a "sandbox," which strictly limits what an app can access. According to Apple's own guidelines, **apps that control other apps cannot be sandboxed**. It's a fundamental incompatibility.
+
+Many popular productivity tools (like clipboard managers, window managers, and text expanders) face the same limitation and are distributed outside the App Store for this reason.
+
+**The bottom line**: Echoo isn't on the App Store because Apple's rules don't allow it - not because we're trying to bypass security. We still follow Apple's guidelines for non-App Store distribution (signed with a Developer ID and notarized by Apple).
+
 ## Features
 
-Echoo is designed to be invisible until you need it, and instant when you do.
+Fix typos, grammar, rewrite in any tone, dictate with voice, and run custom AI prompts via shortcuts. No switching windows. Just flow.
 
-### 🎙️ Voice Superpowers
-Dictate and translate simultaneously. Speak naturally, and let Echoo handle the rest.
-- **Dictate & Translate** (`⌥ + V`): Speak in one language, paste in another.
-- **Voice Instructions** (`⌥ + I`): Select text and tell Echoo what to do with it ("Make this shorter," "Change tone to friendly").
+### ⚡ Text
+Select any text, hit a shortcut, and transform it instantly. Rewrite, summarize, translate, or run custom prompts.
 
-### ⚡ Instant Actions
-Common tasks are just a keystroke away. *All shortcuts are fully customizable to fit your workflow.*
-- **Rewrite** (`⌥ + R`): Instantly improve grammar, clarity, and flow.
-- **Summarize** (`⌥ + S`): Get the gist of long emails or documents.
-- **Translate** (`⌥ + T`): Translate selected text to your preferred language.
-- **Prompt Craft** (`⌥ + P`): Optimize your raw prompts for better AI results.
+### 🎙️ Voice
+Dictate and translate simultaneously. Give voice instructions to edit selected text naturally.
 
-### 📄 File Intelligence
-- **Process Files**: Select a PDF, DOC, or TXT file in Finder and run summaries or translations on it without even opening the file.
-
-### 🛠️ Custom Workflows
-- **Your Prompts, Your Shortcuts**: Create your own custom AI commands. Need to convert JSON? Generate a code review? Reply to emails? Create a custom prompt and assign it a global hotkey (e.g., `⌘ + ⇧ + J`).
+### 📄 Files
+Select a PDF, DOC, or TXT file in Finder and summarize, translate, or ask questions about it - without opening it.
 
 ## Privacy First
 
