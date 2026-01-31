@@ -16,7 +16,7 @@
   </p>
 
   <p>
-    <a href="https://www.echoo.ai/"><strong>Download for macOS</strong></a> •
+    <a href="https://www.echoo.ai/echoo.zip"><strong>Download for macOS</strong></a> •
     <a href="#features">Features</a> •
     <a href="#why-i-built-this">Why I Built This</a>
   </p>
@@ -76,7 +76,7 @@ Your data belongs to you.
 
 Echoo is 100% free to use.
 
-[**Download for macOS**](https://www.echoo.ai/)
+[**Download for macOS**](https://www.echoo.ai/echoo.zip)
 
 *Requires macOS 14 (Sonoma) or later.*
 
