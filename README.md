@@ -77,7 +77,7 @@ Your data belongs to you.
 
 Echoo is 100% free to use.
 
-[**Download for macOS**](https://www.echoo.ai/echoo.zip)
+[**Download for macOS**](https://www.echoo.ai)
 
 *Requires macOS 14 (Sonoma) or later.*
 
