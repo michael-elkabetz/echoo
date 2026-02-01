@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/echoo-icon.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
-  <p><strong>Kill Context Switching.</strong></p>
+  <p><strong>Stop The Switching.</strong></p>
   
   <p>
     <a href="https://www.echoo.ai/">
