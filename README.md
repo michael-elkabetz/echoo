@@ -60,11 +60,24 @@ Fix typos, grammar, rewrite in any tone, dictate with voice, and run custom AI p
 ### ⚡ Text
 Select any text, hit a shortcut, and transform it instantly. Rewrite, summarize, translate, or run custom prompts.
 
+<video src="assets/examples/text-rewrite.webm" controls="controls" width="100%"></video>
+<video src="assets/examples/text-summary.webm" controls="controls" width="100%"></video>
+
 ### 🎙️ Voice
 Dictate and translate simultaneously. Give voice instructions to edit selected text naturally.
 
+<video src="assets/examples/voice-dictate.webm" controls="controls" width="100%"></video>
+<video src="assets/examples/voice-instruct.webm" controls="controls" width="100%"></video>
+
 ### 📄 Files
 Select a PDF, DOC, or TXT file in Finder and summarize, translate, or ask questions about it - without opening it.
+
+<video src="assets/examples/file-ask.webm" controls="controls" width="100%"></video>
+
+### ⚙️ Settings
+Customize your experience with ease.
+
+<video src="assets/examples/settings.webm" controls="controls" width="100%"></video>
 
 ## Privacy First
 
