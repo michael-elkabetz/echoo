@@ -47,7 +47,7 @@ Echoo brings AI text transformation directly to your fingertips. Select text any
 
 Fix typos, grammar, rewrite in any tone, dictate with voice, and run custom AI prompts via shortcuts. No switching windows. Just flow.
 
-![UI Demo](assets/examples/ui.gif)
+---
 
 ### ⚡ Text
 Select any text, hit a shortcut, and transform it instantly. Rewrite, summarize, translate, or run custom prompts.
@@ -74,7 +74,7 @@ Select a PDF, DOC, or TXT file in Finder and summarize, translate, or ask questi
 ### ⚙️ Settings
 Customize your experience with ease.
 
-![Settings Demo](assets/examples/settings.gif)
+![UI Demo](assets/examples/ui.gif)
 
 ## Privacy First
 
