@@ -8,7 +8,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
     </a>
     <a href="https://www.echoo.ai/">
-      <img src="https://img.shields.io/badge/Version-0.9--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.9.7--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -43,25 +43,22 @@ It was exhausting. The constant context switching was killing my focus. I wanted
 
 Echoo brings AI text transformation directly to your fingertips. Select text anywhere on your Mac, hit a shortcut, and watch it transform instantly. No tab switching. No copy-pasting. Just flow.
 
-## Why Not on the App Store?
-
-For Echoo to work its magic - selecting and transforming text in *any* app on your Mac - it needs access to macOS Accessibility APIs. These APIs let Echoo read and modify text across all your applications.
-
-Here's the catch: Apple requires all App Store apps to run in a "sandbox," which strictly limits what an app can access. According to Apple's own guidelines, **apps that control other apps cannot be sandboxed**. It's a fundamental incompatibility.
-
-Many popular productivity tools (like clipboard managers, window managers, and text expanders) face the same limitation and are distributed outside the App Store for this reason.
-
-**The bottom line**: Echoo isn't on the App Store because Apple's rules don't allow it - not because we're trying to bypass security. We still follow Apple's guidelines for non-App Store distribution (signed with a Developer ID and notarized by Apple).
-
 ## Features
 
 Fix typos, grammar, rewrite in any tone, dictate with voice, and run custom AI prompts via shortcuts. No switching windows. Just flow.
+
+![UI Demo](assets/examples/ui.gif)
 
 ### ⚡ Text
 Select any text, hit a shortcut, and transform it instantly. Rewrite, summarize, translate, or run custom prompts.
 
 ![Text Rewrite Demo](assets/examples/text-rewrite.gif)
 ![Text Summary Demo](assets/examples/text-summary.gif)
+
+### 🎯 Custom Command
+Bring your prompt, select shortcut and execute.
+
+![Custom Command Demo](assets/examples/custom.gif)
 
 ### 🎙️ Voice
 Dictate and translate simultaneously. Give voice instructions to edit selected text naturally.
