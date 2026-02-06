@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/echoo-icon.png" alt="Echoo Icon" width="128" height="128" />
+  <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Stop The Switching.</strong></p>
   
