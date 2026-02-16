@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.9.10--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.9.11--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
