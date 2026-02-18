@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.9.11--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.9.13--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -32,6 +32,10 @@
 ---
 
 ## What's New
+
+### Onboarding Dialog & Completion Sound
+
+First-time users now get a friendly onboarding dialog to get started quickly. Plus, hear a satisfying completion sound when AI finishes transforming your text.
 
 ### Local / In-House LLM Support
 
