@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.9.13--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.9.15--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -32,6 +32,14 @@
 ---
 
 ## What's New
+
+### Dramatically Improved Voice Engine
+
+Voice input has been completely overhauled. Echoo now uses **Parakeet v3** for faster, more accurate speech recognition and **FluidAudio** for seamless audio processing - resulting in a dramatically smoother and more reliable voice experience.
+
+### Notch-Aligned Toast Notifications
+
+Toast notifications have been redesigned to appear elegantly alongside the macOS notch, giving you unobtrusive, polished feedback exactly where you'd expect it.
 
 ### Onboarding Dialog & Completion Sound
 
@@ -96,7 +104,7 @@ Create your own prompts, assign a shortcut, and execute anywhere. Your workflow,
 
 ### 🎙️ Voice
 
-Dictate text and translate simultaneously. Give voice instructions to edit selected text naturally.
+Dictate text and translate simultaneously. Give voice instructions to edit selected text naturally. Powered by **Parakeet v3** and **FluidAudio** for fast, accurate recognition.
 
 <div align="center">
   <img src="assets/examples/voice-dictate.gif" alt="Voice Dictate Demo" width="600" />
@@ -106,7 +114,7 @@ Dictate text and translate simultaneously. Give voice instructions to edit selec
 
 ### 📄 Files
 
-Select a PDF, DOC, or TXT file in Finder and summarize, translate, or ask questions about it — without opening it.
+Select a PDF, DOC, or TXT file in Finder and summarize, translate, or ask questions about it - without opening it.
 
 <div align="center">
   <img src="assets/examples/file-ask.gif" alt="File Ask Demo" width="600" />
@@ -130,7 +138,7 @@ Download commands created by other users and share your own. The community decid
 
 ### ⚙️ Settings
 
-Customize your experience — providers, models, shortcuts, and more.
+Customize your experience - providers, models, shortcuts, and more.
 
 <div align="center">
   <img src="assets/examples/ui.gif" alt="Settings UI Demo" width="600" />
@@ -140,7 +148,7 @@ Customize your experience — providers, models, shortcuts, and more.
 
 ## Why I Built This
 
-Since the AI revolution began, my workflow changed completely — but not entirely for the better.
+Since the AI revolution began, my workflow changed completely - but not entirely for the better.
 
 I found myself constantly writing content in various apps (Slack, Gmail, Notes, VS Code) and then interrupting my flow to:
 1. Copy the text.
@@ -161,14 +169,14 @@ Echoo brings AI text transformation directly to your fingertips. Select text any
 
 ## Getting Started
 
-1. **Download** — Grab the latest version from [echoo.ai](https://www.echoo.ai/echoo.zip).
-2. **Install** — Unzip and move Echoo to your Applications folder.
-3. **Grant Permissions** — Open Echoo and allow Accessibility access when prompted (required for system-wide text selection).
-4. **Use It** — Select text anywhere, press your shortcut, and watch the magic happen.
+1. **Download** - Grab the latest version from [echoo.ai](https://www.echoo.ai/echoo.zip).
+2. **Install** - Unzip and move Echoo to your Applications folder.
+3. **Grant Permissions** - Open Echoo and allow Accessibility access when prompted (required for system-wide text selection).
+4. **Use It** - Select text anywhere, press your shortcut, and watch the magic happen.
 
 **Optional:**
-- **Connect a Local LLM** — Go to Settings and point Echoo at your Ollama, LocalAI, or LiteLLM endpoint for zero-cost, fully private AI.
-- **Browse the Marketplace** — Discover and install community-created commands to supercharge your workflow.
+- **Connect a Local LLM** - Go to Settings and point Echoo at your Ollama, LocalAI, or LiteLLM endpoint for zero-cost, fully private AI.
+- **Browse the Marketplace** - Discover and install community-created commands to supercharge your workflow.
 
 > *Requires macOS 14 (Sonoma) or later.*
 
@@ -178,23 +186,23 @@ Echoo brings AI text transformation directly to your fingertips. Select text any
 
 Your data belongs to you.
 
-- **Local Data** — All your settings and history stay on your machine.
-- **No Training** — Your text is never used to train any models.
-- **Secure Keys** — API keys are stored securely in the macOS Keychain.
-- **Local LLM Option** — With Ollama or LocalAI, your data never leaves your machine. Zero external API calls.
+- **Local Data** - All your settings and history stay on your machine.
+- **No Training** - Your text is never used to train any models.
+- **Secure Keys** - API keys are stored securely in the macOS Keychain.
+- **Local LLM Option** - With Ollama or LocalAI, your data never leaves your machine. Zero external API calls.
 
 ---
 
 ## Community & Contributing
 
-Echoo is growing fast — approaching **1,000 users** through word of mouth alone.
+Echoo is growing fast - approaching **1,000 users** through word of mouth alone.
 
 Have a bug to report or a feature idea? We'd love to hear from you:
 
-- **Bug Reports** — [Open an Issue](../../issues/new?labels=bug) to report problems or unexpected behavior.
-- **Feature Requests** — [Open an Issue](../../issues/new?labels=enhancement) to suggest new features or improvements.
-- **Discussions** — Use [GitHub Discussions](../../discussions) for general questions, ideas, or community conversations.
-- **Marketplace** — Share your custom commands with the community and discover what others have built.
+- **Bug Reports** - [Open an Issue](../../issues/new?labels=bug) to report problems or unexpected behavior.
+- **Feature Requests** - [Open an Issue](../../issues/new?labels=enhancement) to suggest new features or improvements.
+- **Discussions** - Use [GitHub Discussions](../../discussions) for general questions, ideas, or community conversations.
+- **Marketplace** - Share your custom commands with the community and discover what others have built.
 
 Your input helps make Echoo better!
 
