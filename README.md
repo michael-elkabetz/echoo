@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.9.15--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.9.17--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -32,6 +32,10 @@
 ---
 
 ## What's New
+
+### Voice Custom Commands
+
+Create custom commands that you can trigger by voice. Define your own voice-activated prompts and execute them hands-free - dictate a command name, and Echoo runs it instantly.
 
 ### Dramatically Improved Voice Engine
 
@@ -104,7 +108,7 @@ Create your own prompts, assign a shortcut, and execute anywhere. Your workflow,
 
 ### 🎙️ Voice
 
-Dictate text and translate simultaneously. Give voice instructions to edit selected text naturally. Powered by **Parakeet v3** and **FluidAudio** for fast, accurate recognition.
+Dictate text and translate simultaneously. Give voice instructions to edit selected text naturally. Create **voice custom commands** - trigger any of your custom prompts by speaking their name. Powered by **Parakeet v3** and **FluidAudio** for fast, accurate recognition.
 
 <div align="center">
   <img src="assets/examples/voice-dictate.gif" alt="Voice Dictate Demo" width="600" />
