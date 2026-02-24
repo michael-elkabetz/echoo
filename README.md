@@ -135,8 +135,8 @@ Customize your experience — providers, models, shortcuts, and more.
 ## Quick Start
 
 1. **Download** — Grab the latest version from [echoo.ai](https://www.echoo.ai/).
-2. **Install** — Unzip and move Echoo to your Applications folder.
-3. **Grant Permissions** — Open Echoo and allow Accessibility access when prompted (required for system-wide text selection).
+2. **Install** — Open the DMG and drag Echoo to your Applications folder.
+3. **Set Up** — Launch Echoo and follow the onboarding dialog to grant Accessibility permissions and set your API key.
 4. **Use It** — Select text anywhere, press your shortcut, and watch the magic happen.
 
 **Optional:**
