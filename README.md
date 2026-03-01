@@ -1,32 +1,36 @@
 <div align="center">
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
-  <p><strong>Your AI assistant, everywhere on macOS.</strong></p>
-  <p>Select text anywhere, hit a shortcut, and let AI transform it instantly.<br/>No browser tabs. No copy-pasting. Just flow.</p>
+  <p><strong>Your AI Shortcut.</strong></p>
+  <p>AI that works where you work. Select any text, press a shortcut — rewrite, translate, dictate, or run custom prompts without leaving your app.<br/>Local or cloud models, inline or popup, screen-aware context — endless possibilities.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.9.20--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.9.24--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
+    </a>
+    <a href="https://github.com/michael-elkabetz/echoo">
+      <img src="https://img.shields.io/badge/Open_Source-gray?style=for-the-badge&logo=github&logoColor=white" alt="Open Source" />
     </a>
   </p>
 
   <p>
     <a href="https://www.echoo.ai/"><strong>Download for macOS</strong></a> &middot;
+    <a href="https://www.echoo.ai/marketplace">Marketplace</a> &middot;
     <a href="../../issues/new?labels=bug">Report Bug</a> &middot;
     <a href="../../issues/new?labels=enhancement">Request Feature</a>
   </p>
 
   <p>
-    <a href="#whats-new">What's New</a> &middot;
     <a href="#features">Features</a> &middot;
+    <a href="#supported-models">Models</a> &middot;
     <a href="#quick-start">Quick Start</a> &middot;
-    <a href="#commands-marketplace">Marketplace</a>
+    <a href="#whats-new">What's New</a>
   </p>
 
   <br/>
@@ -40,17 +44,20 @@
 
 - [About](#about)
 - [Features](#features)
-  - [Text Transformation](#-text-transformation)
-  - [Custom Commands](#-custom-commands)
+  - [Text](#-text)
   - [Voice](#-voice)
+  - [Screen Context](#-screen-context)
+  - [Custom Commands & Marketplace](#-custom-commands--marketplace)
   - [Files](#-files)
-  - [Local LLM Support](#-local-llm-support)
-  - [Commands Marketplace](#-commands-marketplace)
+  - [Local LLMs](#-local-llms)
   - [Settings](#-settings)
+- [Supported Models](#supported-models)
+- [Default Shortcuts](#default-shortcuts)
 - [Quick Start](#quick-start)
 - [What's New](#whats-new)
 - [Why Echoo](#why-echoo)
 - [Privacy First](#privacy-first)
+- [Support the Project](#support-the-project)
 - [Community & Contributing](#community--contributing)
 - [Links](#links)
 
@@ -58,9 +65,11 @@
 
 ## About
 
-Echoo is a native macOS app that brings AI text transformation anywhere you work. Select text in any app, hit a shortcut, and transform it instantly — rewrite, summarize, translate, or run custom prompts — without leaving your flow.
+Echoo is a free, open-source macOS app that brings AI text transformation anywhere you work. Fix typos, grammar, change tone, summarize, and rewrite — all with shortcuts. Never break your flow.
 
-It works system-wide across every app, supports voice input, custom commands, file analysis, a community marketplace, and can run fully offline with local LLMs.
+It works system-wide across every app, supports on-device voice input, screen-aware context, custom commands, file analysis, a community marketplace, and can run fully offline with local LLMs.
+
+Built with Swift and SwiftUI. No Electron. No web views. Pure native performance.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
@@ -68,9 +77,17 @@ It works system-wide across every app, supports voice input, custom commands, fi
 
 ## Features
 
-### ⚡ Text Transformation
+### ⚡ Text
 
-Select any text, hit a shortcut, and transform it instantly. Rewrite, summarize, translate, or run any prompt.
+Fix typos, grammar, change tone, summarize, and rewrite — all with shortcuts. Never break your flow.
+
+- **Rewrite** (`⌥R`) — Proofread, fix grammar, and polish. Replaces your selection inline.
+- **Summarize** (`⌥S`) — TL;DR, main topics, and action items in a popup.
+- **Translate** (`⌥T`) — Translate to English, Hebrew, Spanish, French, German, Chinese, Japanese, or Arabic.
+- **Ask** (`⌥A`) — Ask questions about selected text. Get answers in a popup.
+- **Prompt Craft** (`⌥P`) — Optimize any prompt using a multi-layer architecture.
+
+Each command can be configured with your preferred AI provider, model, and temperature.
 
 <div align="center">
   <img src="assets/examples/text-rewrite.gif" alt="Text Rewrite Demo" width="600" />
@@ -78,17 +95,14 @@ Select any text, hit a shortcut, and transform it instantly. Rewrite, summarize,
   <img src="assets/examples/text-summary.gif" alt="Text Summary Demo" width="600" />
 </div>
 
-### 🎯 Custom Commands
-
-Create your own prompts, assign a shortcut, and execute anywhere. Your workflow, your rules.
-
-<div align="center">
-  <img src="assets/examples/custom.gif" alt="Custom Command Demo" width="600" />
-</div>
-
 ### 🎙️ Voice
 
-Dictate text and translate simultaneously. Give voice instructions to edit selected text naturally. Create **voice custom commands** — trigger any of your custom prompts by speaking their name. Powered by **Parakeet v3** and **FluidAudio** for fast, accurate recognition.
+4x faster than typing. Echoo's local voice engine, powered by **NVIDIA Parakeet V3** and **FluidAudio**. Blazing fast, 25 languages, post-processing, running locally. Maximum security, zero cost.
+
+- **Dictate** (`⌥V`) — Speak and text appears at your cursor. Push-to-talk or toggle modes.
+- **Voice Instruction** (`⌥I`) — Select text, speak an instruction ("make this shorter and professional"), and AI applies it.
+- **Voice Custom Commands** — Trigger any custom command by voice.
+- **Post-processing** — Chain dictation output into any command (e.g., dictate then auto-translate to French).
 
 <div align="center">
   <img src="assets/examples/voice-dictate.gif" alt="Voice Dictate Demo" width="600" />
@@ -96,33 +110,52 @@ Dictate text and translate simultaneously. Give voice instructions to edit selec
   <img src="assets/examples/voice-instruct.gif" alt="Voice Instruct Demo" width="600" />
 </div>
 
+### 📸 Screen Context
+
+Toggle on to attach a screenshot with any command. AI gets your text + what's on screen as context. Works with any command — built-in, custom, or voice instruction.
+
+### 🎯 Custom Commands & Marketplace
+
+Build custom AI commands or grab ready-made ones from the [marketplace](https://www.echoo.ai/marketplace). Post-dictation AI enhancement that polishes your voice. Screen context that lets AI see what you see. All composable, all yours.
+
+- **Custom system prompts** — Write any prompt, assign a shortcut.
+- **Text or voice input** — Create text-based or voice-triggered commands.
+- **Inline or popup** — Choose whether the response replaces your text or appears in a popup.
+- **Per-command model** — Assign a different AI provider and model to each command.
+- **Screenshot context** — Optionally include screen context.
+- **Import & export** — Share commands as `.echoo` files or download from the marketplace.
+
+<div align="center">
+  <img src="assets/examples/custom.gif" alt="Custom Command Demo" width="600" />
+  <br/><br/>
+  <img src="assets/examples/marketplace.gif" alt="Marketplace Demo" width="600" />
+</div>
+
 ### 📄 Files
 
-Select a PDF, DOC, or TXT file in Finder and summarize, translate, or ask questions about it — without opening it.
+Select files, use shortcuts to summarize, extract, translate, or ask questions — without opening them. Supports PDF, DOC, and TXT.
 
 <div align="center">
   <img src="assets/examples/file-ask.gif" alt="File Ask Demo" width="600" />
 </div>
 
-### 🔒 Local LLM Support
+### 🔒 Local LLMs
 
-Run AI completely on your machine with **Ollama**, **LocalAI**, or connect through **LiteLLM** proxy. Maximum data security. Zero costs.
+Connect **Ollama**, **LocalAI**, or **LiteLLM**. Your data never leaves your device — no API costs, no usage limits, full control. Works offline.
 
 <div align="center">
   <img src="assets/examples/ollama.gif" alt="Local LLM Demo" width="600" />
 </div>
 
-### 🛒 Commands Marketplace
-
-Download commands created by other users and share your own. The community decides what's useful.
-
-<div align="center">
-  <img src="assets/examples/marketplace.gif" alt="Marketplace Demo" width="600" />
-</div>
-
 ### ⚙️ Settings
 
-Customize your experience — providers, models, shortcuts, and more.
+Customize providers, models, shortcuts, appearance, and more.
+
+- **Dark mode** toggle
+- **Completion sound** toggle
+- **Show in Dock** toggle
+- **Launch at login**
+- **Per-command model & provider**
 
 <div align="center">
   <img src="assets/examples/ui.gif" alt="Settings UI Demo" width="600" />
@@ -132,16 +165,71 @@ Customize your experience — providers, models, shortcuts, and more.
 
 ---
 
+## Supported Models
+
+Choose your AI engine — top cloud providers or local models for full privacy. Switch anytime, your workflow stays the same.
+
+### Cloud Providers
+
+| Provider | Models | Default |
+|----------|--------|---------|
+| **OpenAI** | GPT-4.1 Nano, GPT-5 Mini, GPT-5.2 | GPT-4.1 Nano |
+| **Anthropic** | Claude Haiku 4.5, Claude Sonnet 4.5, Claude Opus 4.6 | Claude Haiku 4.5 |
+| **Google** | Gemini 2.5 Flash Lite, Gemini 2.5 Pro, Gemini 3 Pro, Gemini 3 Flash | Gemini 2.5 Flash Lite |
+
+### Local Providers
+
+| Provider | Description |
+|----------|-------------|
+| **Ollama** | Run open-source models locally (Llama, Mistral, etc.) |
+| **LocalAI** | OpenAI-compatible local inference server |
+| **LiteLLM** | Proxy for 100+ model providers behind a unified API |
+
+Each command can use a different provider and model. Switch freely per workflow.
+
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
+
+---
+
+## Default Shortcuts
+
+All shortcuts use the **Option (⌥)** key and are fully customizable in Settings.
+
+| Shortcut | Command |
+|----------|---------|
+| `⌥R` | **Rewrite** — Fix grammar & polish (inline replace) |
+| `⌥S` | **Summarize** — TL;DR & key points (popup) |
+| `⌥T` | **Translate** — Translate to chosen language (popup) |
+| `⌥A` | **Ask** — Q&A about selected text (popup) |
+| `⌥P` | **Prompt Craft** — Optimize a prompt (popup) |
+| `⌥V` | **Dictate** — Voice to text (on-device) |
+| `⌥I` | **Voice Instruction** — Speak to edit text |
+
+Custom commands get their own shortcuts from a dedicated pool.
+
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
+
+---
+
 ## Quick Start
 
 1. **Download** — Grab the latest version from [echoo.ai](https://www.echoo.ai/).
 2. **Install** — Open the DMG and drag Echoo to your Applications folder.
-3. **Set Up** — Launch Echoo and follow the onboarding dialog to grant Accessibility permissions and set your API key.
+3. **Set Up** — Launch Echoo and follow the onboarding to grant Accessibility permission and set your API key.
 4. **Use It** — Select text anywhere, press your shortcut, and watch the magic happen.
 
 **Optional:**
 - **Connect a Local LLM** — Go to Settings and point Echoo at your Ollama, LocalAI, or LiteLLM endpoint for zero-cost, fully private AI.
-- **Browse the Marketplace** — Discover and install community-created commands to supercharge your workflow.
+- **Install Voice Model** — Go to Settings > Commands > Dictate and download the Parakeet v3 model (~650 MB) for on-device speech recognition.
+- **Browse the Marketplace** — Discover and install community-created commands at [echoo.ai/marketplace](https://www.echoo.ai/marketplace).
+
+### Permissions
+
+| Permission | Required | Purpose |
+|-----------|----------|---------|
+| **Accessibility** | Yes | Capture selected text and simulate keyboard shortcuts |
+| **Microphone** | Optional | Voice dictation and voice instruction commands |
+| **Screen Recording** | Optional | Screen context screenshots for AI processing |
 
 > *Requires macOS 14 (Sonoma) or later.*
 
@@ -151,41 +239,18 @@ Customize your experience — providers, models, shortcuts, and more.
 
 ## What's New
 
-### UI Improvements, Dark Mode & Bug Fixes
+### v0.9.24 — Screen Context, Model Updates & Polish
 
-Refined UI with improved polish throughout. Full **Dark Mode** support for comfortable use in low-light environments. Plus stability improvements and bug fixes across the board.
-
-### Voice Custom Commands
-
-Create custom commands that you can trigger by voice. Define your own voice-activated prompts and execute them hands-free — dictate a command name, and Echoo runs it instantly.
-
-### Dramatically Improved Voice Engine
-
-Voice input has been completely overhauled. Echoo now uses **Parakeet v3** for faster, more accurate speech recognition and **FluidAudio** for seamless audio processing — resulting in a dramatically smoother and more reliable voice experience.
-
-### Notch-Aligned Toast Notifications
-
-Toast notifications have been redesigned to appear elegantly alongside the macOS notch, giving you unobtrusive, polished feedback exactly where you'd expect it.
-
-### Onboarding Dialog & Completion Sound
-
-First-time users now get a friendly onboarding dialog to get started quickly. Plus, hear a satisfying completion sound when AI finishes transforming your text.
-
-### Local / In-House LLM Support
-
-Connect Echoo to models running locally with **Ollama**, **LocalAI**, or through a proxy with **LiteLLM**. Your data never leaves your machine and there are zero API costs.
-
-<div align="center">
-  <img src="assets/examples/ollama.gif" alt="Local LLM with Ollama" width="600" />
-</div>
-
-### Commands Marketplace
-
-Browse, download, and share AI commands created by the community. Find the perfect command for your workflow or publish your own.
-
-<div align="center">
-  <img src="assets/examples/marketplace.gif" alt="Commands Marketplace" width="600" />
-</div>
+- **Screen context** — Attach a screenshot to any command so the AI can see what's on your screen. Enable per-command in Settings.
+- **Latest models** — Updated to GPT-5.2, Claude Opus 4.6, Gemini 3 Pro/Flash, and more.
+- **Voice custom commands** — Create custom commands triggered by voice input.
+- **UI refinements** — Improved settings layout, command cards, and overall polish.
+- **Dark mode** — Full dark mode support across the entire app.
+- **Notch-aligned toasts** — Processing and error notifications align elegantly with the macOS notch.
+- **Onboarding** — Guided first-run experience for permissions, API key, and command overview.
+- **Completion sound** — Optional audio feedback when processing finishes.
+- **Dramatically improved voice engine** — Parakeet v3 with FluidAudio for faster, more accurate on-device speech recognition.
+- **Bug fixes and stability improvements** across text processing, clipboard handling, and voice flows.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
@@ -216,18 +281,29 @@ The constant context switching was killing my focus. I wanted the AI to come to 
 
 Your data belongs to you.
 
-- **Local Data** — All your settings and history stay on your machine.
-- **No Training** — Your text is never used to train any models.
-- **Secure Keys** — API keys are stored securely in the macOS Keychain.
-- **Local LLM Option** — With Ollama or LocalAI, your data never leaves your machine. Zero external API calls.
+- **On-device voice** — Dictation runs entirely on your Mac using Parakeet v3. Your voice never leaves your machine.
+- **Local data** — All settings and history stay on your machine in a local database.
+- **No training** — Your text is never used to train any models.
+- **Local LLM option** — With Ollama, LocalAI, or LiteLLM, your data never leaves your device. Zero external API calls. Works offline.
+- **Hardened runtime** — Signed and notarized macOS app with hardened runtime enabled.
+
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
+
+---
+
+## Support the Project
+
+Echoo saves you hours. Support the project so we can build tools to save you even more.
+
+<p align="center">
+  <a href="https://ko-fi.com/echooai"><strong>Buy me a coffee on Ko-fi</strong></a>
+</p>
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
 ---
 
 ## Community & Contributing
-
-Echoo is growing fast — approaching **1,000 users** through word of mouth alone.
 
 Have a bug to report or a feature idea? We'd love to hear from you:
 
@@ -236,7 +312,11 @@ Have a bug to report or a feature idea? We'd love to hear from you:
 - **Discussions** — Use [GitHub Discussions](../../discussions) for general questions, ideas, or community conversations.
 - **Marketplace** — Share your custom commands with the community and discover what others have built.
 
-Your input helps make Echoo better!
+> *"It is exactly what an AI assistant should be, with the minimum interface necessary and very transparent."*
+> — Bernard, Writer at [VVMac Magazine](https://vvmac.fr/wordpress_b/?p=10025)
+
+> *"I've tried many tools claiming to do something similar, but none are even remotely as intuitive and user-friendly. Love it!"*
+> — Dvir, CEO
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
@@ -245,14 +325,17 @@ Your input helps make Echoo better!
 ## Links
 
 - **Website**: [www.echoo.ai](https://www.echoo.ai/)
+- **Download**: [echoo.ai/get/Echoo.dmg](https://www.echoo.ai/get/Echoo.dmg)
 - **Releases**: [GitHub Releases](https://github.com/michael-elkabetz/echoo/releases)
-- **Commands Marketplace**: [echoo.ai/marketplace](https://www.echoo.ai/marketplace)
+- **Marketplace**: [echoo.ai/marketplace](https://www.echoo.ai/marketplace)
 - **Blog**: [echoo.ai/blog](https://echoo.ai/blog)
+- **Ko-fi**: [ko-fi.com/echooai](https://ko-fi.com/echooai)
+- **Twitter**: [@echoo_app](https://twitter.com/echoo_app)
 - **About Me**: [mike.org.il](https://mike.org.il)
 - **LinkedIn**: [Michael Elkabetz](https://www.linkedin.com/in/michael-elkabetz/)
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by Michael Elkabetz</sub>
+  <sub>Built for speed ⚡ with ❤️ by <a href="https://www.mike.org.il">Mike</a></sub>
 </div>
