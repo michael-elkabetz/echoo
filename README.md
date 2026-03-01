@@ -40,6 +40,7 @@
 ## Table of Contents
 
 - [About](#about)
+- [Quick Start](#quick-start)
 - [Features](#features)
   - [Text](#-text)
   - [Voice](#-voice)
@@ -50,7 +51,6 @@
   - [Settings](#-settings)
 - [Supported Models](#supported-models)
 - [Default Shortcuts](#default-shortcuts)
-- [Quick Start](#quick-start)
 - [What's New](#whats-new)
 - [Why Echoo](#why-echoo)
 - [Privacy First](#privacy-first)
@@ -68,7 +68,29 @@ It works system-wide across every app, supports on-device voice input, screen-aw
 
 Built with Swift and SwiftUI. No Electron. No web views. Pure native performance.
 
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
+---
+
+## Quick Start
+
+1. **Download** - Grab the latest version from [echoo.ai](https://www.echoo.ai/).
+2. **Install** - Open the DMG and drag Echoo to your Applications folder.
+3. **Set Up** - Launch Echoo and follow the onboarding to grant Accessibility permission and set your API key.
+4. **Use It** - Select text anywhere, press your shortcut, and watch the magic happen.
+
+**Optional:**
+- **Connect a Local LLM** - Go to Settings and point Echoo at your Ollama, LocalAI, or LiteLLM endpoint for zero-cost, fully private AI.
+- **Install Voice Model** - Go to Settings > Commands > Dictate and download the Parakeet v3 model (~650 MB) for on-device speech recognition.
+- **Browse the Marketplace** - Discover and install community-created commands at [echoo.ai/marketplace](https://www.echoo.ai/marketplace).
+
+### Permissions
+
+| Permission | Required | Purpose |
+|-----------|----------|---------|
+| **Accessibility** | Yes | Capture selected text and simulate keyboard shortcuts |
+| **Microphone** | Optional | Voice dictation and voice instruction commands |
+| **Screen Recording** | Optional | Screen context screenshots for AI processing |
+
+> *Requires macOS 14 (Sonoma) or later.*
 
 ---
 
@@ -203,32 +225,6 @@ All shortcuts use the **Option (⌥)** key and are fully customizable in Setting
 | `⌥I` | **Voice Instruction** - Speak to edit text |
 
 Custom commands get their own shortcuts from a dedicated pool.
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## Quick Start
-
-1. **Download** - Grab the latest version from [echoo.ai](https://www.echoo.ai/).
-2. **Install** - Open the DMG and drag Echoo to your Applications folder.
-3. **Set Up** - Launch Echoo and follow the onboarding to grant Accessibility permission and set your API key.
-4. **Use It** - Select text anywhere, press your shortcut, and watch the magic happen.
-
-**Optional:**
-- **Connect a Local LLM** - Go to Settings and point Echoo at your Ollama, LocalAI, or LiteLLM endpoint for zero-cost, fully private AI.
-- **Install Voice Model** - Go to Settings > Commands > Dictate and download the Parakeet v3 model (~650 MB) for on-device speech recognition.
-- **Browse the Marketplace** - Discover and install community-created commands at [echoo.ai/marketplace](https://www.echoo.ai/marketplace).
-
-### Permissions
-
-| Permission | Required | Purpose |
-|-----------|----------|---------|
-| **Accessibility** | Yes | Capture selected text and simulate keyboard shortcuts |
-| **Microphone** | Optional | Voice dictation and voice instruction commands |
-| **Screen Recording** | Optional | Screen context screenshots for AI processing |
-
-> *Requires macOS 14 (Sonoma) or later.*
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
