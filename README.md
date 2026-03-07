@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.10.5--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.10.6--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -243,7 +243,7 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v0.10.5 - Screen Context, Read Aloud, Model Updates & Polish
+### v0.10.6 - Screen Context, Read Aloud, Model Updates & Polish
 
 - **Read Aloud** - Select any text and have it read back using macOS text-to-speech. Auto-detects language, adjustable speed (0.5x–2x), optional AI pre-processing (Rewrite, Summarize, Translate, etc.) before speaking. Press the shortcut again to stop.
 - **Screen context** - Attach a screenshot to any command so the AI can see what's on your screen. Enable per-command in Settings.
