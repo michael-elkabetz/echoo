@@ -2,17 +2,20 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Your AI Shortcut.</strong></p>
-  <p>AI that works where you work. Select any text, press a shortcut - rewrite, translate, dictate, or run custom prompts without leaving your app.<br/>Local or cloud models, inline or popup, screen-aware context - endless possibilities.</p>
+  <p>AI that works where you work. Select any text, press a shortcut - rewrite, translate, dictate, or run custom prompts without leaving your app.<br/>Local or external models, inline or popup, screen-aware context.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.9.24--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.10.5--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
+    </a>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
     </a>
   </p>
 
@@ -62,9 +65,11 @@
 
 ## About
 
-Echoo is a free macOS app that brings AI text transformation anywhere you work. Fix typos, grammar, change tone, summarize, and rewrite - all with shortcuts. Never break your flow.
+Echoo is a free, open-source macOS app that transforms text using AI keyboard shortcuts. Fix typos, grammar, change tone, summarize, and rewrite - all with shortcuts. Never break your flow.
 
 It works system-wide across every app, supports on-device voice input, screen-aware context, custom commands, file analysis, a community marketplace, and can run fully offline with local LLMs.
+
+**BYOK** - Bring your own API key. Your text goes directly to your chosen AI provider. Echoo never sees your data.
 
 Built with Swift and SwiftUI. No Electron. No web views. Pure native performance.
 
@@ -102,7 +107,7 @@ Fix typos, grammar, change tone, summarize, and rewrite - all with shortcuts. Ne
 
 - **Rewrite** (`⌥R`) - Proofread, fix grammar, and polish. Replaces your selection inline.
 - **Summarize** (`⌥S`) - TL;DR, main topics, and action items in a popup.
-- **Translate** (`⌥T`) - Translate to English, Hebrew, Spanish, French, German, Chinese, Japanese, or Arabic.
+- **Translate** (`⌥T`) - Translate to any language instantly without switching apps.
 - **Ask** (`⌥A`) - Ask questions about selected text. Get answers in a popup.
 - **Prompt Craft** (`⌥P`) - Optimize any prompt using a multi-layer architecture.
 
@@ -116,12 +121,13 @@ Each command can be configured with your preferred AI provider, model, and tempe
 
 ### 🎙️ Voice
 
-4x faster than typing. Echoo's local voice engine, powered by **NVIDIA Parakeet V3** and **FluidAudio**. Blazing fast, 25 languages, post-processing, running locally. Maximum security, zero cost.
+4x faster than typing. Echoo's local voice engine, powered by **NVIDIA Parakeet V3**. Blazing fast, 25 languages, post-processing, running locally. Maximum security, zero cost.
 
 - **Dictate** (`⌥V`) - Speak and text appears at your cursor. Push-to-talk or toggle modes.
 - **Voice Instruction** (`⌥I`) - Select text, speak an instruction ("make this shorter and professional"), and AI applies it.
 - **Voice Custom Commands** - Trigger any custom command by voice.
 - **Post-processing** - Chain dictation output into any command (e.g., dictate then auto-translate to French).
+- **Read Aloud** (`⌥L`) - Select any text and have it read back using macOS text-to-speech. Auto-detects language for the right voice. Optionally run any AI command (Rewrite, Summarize, Translate, etc.) on the text before speaking. Adjustable speed (0.5x–2x). Press the shortcut again to stop.
 
 <div align="center">
   <img src="assets/examples/voice-dictate.gif" alt="Voice Dictate Demo" width="600" />
@@ -135,7 +141,7 @@ Toggle on to attach a screenshot with any command. AI gets your text + what's on
 
 ### 🎯 Custom Commands & Marketplace
 
-Build custom AI commands or grab ready-made ones from the [marketplace](https://www.echoo.ai/marketplace). Post-dictation AI enhancement that polishes your voice. Screen context that lets AI see what you see. All composable, all yours.
+Build custom AI commands or grab ready-made ones from the [marketplace](https://www.echoo.ai/marketplace). All composable, all yours.
 
 - **Custom system prompts** - Write any prompt, assign a shortcut.
 - **Text or voice input** - Create text-based or voice-triggered commands.
@@ -195,6 +201,10 @@ Choose your AI engine - top cloud providers or local models for full privacy. Sw
 | **OpenAI** | GPT-4.1 Nano, GPT-5 Mini, GPT-5.2 | GPT-4.1 Nano |
 | **Anthropic** | Claude Haiku 4.5, Claude Sonnet 4.5, Claude Opus 4.6 | Claude Haiku 4.5 |
 | **Google** | Gemini 2.5 Flash Lite, Gemini 2.5 Pro, Gemini 3 Pro, Gemini 3 Flash | Gemini 2.5 Flash Lite |
+| **Groq** | Ultra-fast cloud inference | — |
+| **OpenRouter** | Multi-provider gateway (100+ models) | — |
+| **DeepSeek** | Cost-effective reasoning models | — |
+| **Mistral** | European AI provider | — |
 
 ### Local Providers
 
@@ -223,6 +233,7 @@ All shortcuts use the **Option (⌥)** key and are fully customizable in Setting
 | `⌥P` | **Prompt Craft** - Optimize a prompt (popup) |
 | `⌥V` | **Dictate** - Voice to text (on-device) |
 | `⌥I` | **Voice Instruction** - Speak to edit text |
+| `⌥L` | **Read Aloud** - Text-to-speech with AI pre-processing |
 
 Custom commands get their own shortcuts from a dedicated pool.
 
@@ -232,8 +243,9 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v0.9.24 - Screen Context, Model Updates & Polish
+### v0.10.5 - Screen Context, Read Aloud, Model Updates & Polish
 
+- **Read Aloud** - Select any text and have it read back using macOS text-to-speech. Auto-detects language, adjustable speed (0.5x–2x), optional AI pre-processing (Rewrite, Summarize, Translate, etc.) before speaking. Press the shortcut again to stop.
 - **Screen context** - Attach a screenshot to any command so the AI can see what's on your screen. Enable per-command in Settings.
 - **Latest models** - Updated to GPT-5.2, Claude Opus 4.6, Gemini 3 Pro/Flash, and more.
 - **Voice custom commands** - Create custom commands triggered by voice input.
@@ -242,7 +254,7 @@ Custom commands get their own shortcuts from a dedicated pool.
 - **Notch-aligned toasts** - Processing and error notifications align elegantly with the macOS notch.
 - **Onboarding** - Guided first-run experience for permissions, API key, and command overview.
 - **Completion sound** - Optional audio feedback when processing finishes.
-- **Dramatically improved voice engine** - Parakeet v3 with FluidAudio for faster, more accurate on-device speech recognition.
+- **Dramatically improved voice engine** - Parakeet v3 for faster, more accurate on-device speech recognition.
 - **Bug fixes and stability improvements** across text processing, clipboard handling, and voice flows.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
@@ -274,6 +286,7 @@ The constant context switching was killing my focus. I wanted the AI to come to 
 
 Your data belongs to you.
 
+- **BYOK** - Bring your own API key. Your text goes directly to your chosen AI provider. Echoo never sees your data.
 - **On-device voice** - Dictation runs entirely on your Mac using Parakeet v3. Your voice never leaves your machine.
 - **Local data** - All settings and history stay on your machine in a local database.
 - **No training** - Your text is never used to train any models.
