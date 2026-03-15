@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.11.0--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.11.1--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -128,7 +128,7 @@ Each command can be configured with your preferred AI provider, model, and tempe
 - **Voice Custom Commands** - Trigger any custom command by voice.
 - **Post-processing** - Chain dictation output into any command (e.g., dictate then auto-translate to French).
 - **Read Aloud** (`⌥L`) - Select any text and have it read back using macOS text-to-speech. Auto-detects language for the right voice. Optionally run any AI command (Rewrite, Summarize, Translate, etc.) on the text before speaking. Adjustable speed (0.5x-2x). Press the shortcut again to stop.
-- **Voice Launcher** (`Fn` hold) - Hold the Fn key, say a command name ("rewrite", "summarize", "translate"), and it executes. Works with all built-in, custom, and marketplace commands. No shortcut memorization needed.
+- **Voice Launcher** (`⌃` hold) - Hold the Control key, say a command name ("rewrite", "summarize", "translate"), and it executes. Works with all built-in, custom, and marketplace commands. No shortcut memorization needed.
 
 <div align="center">
   <img src="assets/examples/voice-dictate.gif" alt="Voice Dictate Demo" width="600" />
@@ -235,7 +235,7 @@ All shortcuts use the **Option (⌥)** key and are fully customizable in Setting
 | `⌥V` | **Dictate** - Voice to text (on-device) |
 | `⌥I` | **Voice Instruction** - Speak to edit text |
 | `⌥L` | **Read Aloud** - Text-to-speech with AI pre-processing |
-| `Fn` (hold) | **Voice Launcher** - Say a command name to execute it |
+| `⌃` (hold) | **Voice Launcher** - Say a command name to execute it |
 
 Custom commands get their own shortcuts from a dedicated pool.
 
@@ -245,12 +245,17 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
+### v0.11.1-beta - Auto Select All & Voice Launcher Control Key
+
+- **Auto select all** - No more `⌘A` before running inline commands. Echoo automatically selects all text when nothing is selected, so you can just press your shortcut and go.
+- **Voice Launcher default key changed** - Voice Launcher now defaults to the Control key (⌃) instead of Fn. Hold Control, speak a command name, and it executes. Fully customizable in Settings.
+
 ### v0.11.0-beta - Heading to Official Release
 
 Echoo is heading toward its first official release. This is the most complete version yet.
 
 - **Screen Context** - Attach a screenshot to any command so the AI can see what's on your screen. Uses macOS ScreenCaptureKit. Toggle per-command in Settings. Works with built-in, custom, and voice instruction commands. When using voice instruction without selected text, Echoo switches to screen-only analysis mode.
-- **Voice Launcher** - Hold a key (default: Fn), speak a command name, and it executes instantly. Works with all built-in commands, custom commands, and marketplace commands. Recognizes variations ("re-write", "summarise", "read out loud"). A voice-activated command palette - no shortcut memorization needed.
+- **Voice Launcher** - Hold a key (default: Control ⌃), speak a command name, and it executes instantly. Works with all built-in commands, custom commands, and marketplace commands. Recognizes variations ("re-write", "summarise", "read out loud"). A voice-activated command palette - no shortcut memorization needed.
 - **Read Aloud with AI Pre-Processing** - Select any text and hear it spoken aloud using macOS text-to-speech. Auto-detects language across 25+ languages. Adjustable speed (0.5x-2x). Chain any AI command as a pre-processing step - e.g., summarize an article, translate the summary to French, then hear it read aloud.
 - **Undo support** - Every inline text replacement can be undone with `⌘Z`. Echoo restores your original text instantly.
 - **Cleaner command management** - Disabled commands are now removed from the active command list, keeping your workspace clean.
