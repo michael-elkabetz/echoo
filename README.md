@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. Now it also introduces a new way to use <strong>Claude Code Skills</strong>: run them by voice or shortcut, skip the CLI, and get the result back on screen without losing context.</p>
+  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. New in <strong>v0.12.0-beta</strong>: run <strong>Claude Code Skills</strong> by voice or shortcut, skip the CLI, and get the result back on screen without losing context.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
@@ -43,7 +43,7 @@
 2. Trigger a command by voice or shortcut
 3. Get the result back inline
 
-For developer workflows, Echoo now extends the same model to **Claude Code Skills**:
+New in **v0.12.0-beta**, Echoo extends the same model to **Claude Code Skills**:
 
 1. Trigger a skill by voice or shortcut
 2. Echoo runs it for you without pulling you into the CLI
