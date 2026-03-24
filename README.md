@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.11.4--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.12.0--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -223,7 +223,7 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v0.11.4-beta - Claude Code Skills
+### v0.12.0-beta - Claude Code Skills
 
 - **A new way to use Claude Code** - Echoo now lets you run **Claude Code Skills** by voice or keyboard shortcut, without opening the CLI first.
 - **Results come back on screen** - Instead of jumping into a terminal and breaking flow, you stay in context and get the response directly in Echoo's normal result surface.
