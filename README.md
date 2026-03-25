@@ -2,14 +2,14 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. New in <strong>v0.12.0-beta</strong>: run <strong>Claude Code Skills</strong> by voice or shortcut, skip the CLI, and get the result back on screen without losing context.</p>
+  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. New in <strong>v0.12.1-beta</strong>: run <strong>Claude Code Skills</strong> by voice or shortcut, skip the CLI, and get the result back on screen without losing context.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.12.0--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.12.1--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -43,7 +43,7 @@
 2. Trigger a command by voice or shortcut
 3. Get the result back inline
 
-New in **v0.12.0-beta**, Echoo extends the same model to **Claude Code Skills**:
+New in **v0.12.1-beta**, Echoo extends the same model to **Claude Code Skills**:
 
 1. Trigger a skill by voice or shortcut
 2. Echoo runs it for you without pulling you into the CLI
@@ -223,7 +223,7 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v0.12.0-beta - Claude Code Skills
+### v0.12.1-beta - Claude Code Skills
 
 - **A new way to use Claude Code** - Echoo now lets you run **Claude Code Skills** by voice or keyboard shortcut, without opening the CLI first.
 - **Results come back on screen** - Instead of jumping into a terminal and breaking flow, you stay in context and get the response directly in Echoo's normal result surface.
