@@ -2,14 +2,14 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. New in <strong>v0.12.5-beta</strong>: run <strong>Claude Code Skills</strong> by voice or shortcut, skip the CLI, and get the result back on screen without losing context.</p>
+  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. New in <strong>v0.13.0-beta</strong>: a floating rewrite button appears when you select text, so you can polish it immediately without remembering a shortcut.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.12.5--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-0.13.0--beta-blue?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -43,17 +43,11 @@
 2. Trigger a command by voice or shortcut
 3. Get the result back inline
 
-New in **v0.12.5-beta**, Echoo extends the same model to **Claude Code Skills**:
+New in **v0.13.0-beta**, Echoo adds a **floating rewrite button** for immediate polishing:
 
-1. Trigger a skill by voice or shortcut
-2. Echoo runs it for you without pulling you into the CLI
-3. The result comes back on screen, inside the flow you were already in
-
-Example:
-
-> `/github-trending Give me a daily AI-powered summary of trending GitHub repositories.`
->
-> Echoo can return a compact on-screen summary like: **bytedance/deer-flow (42k)** for research and coding, **pascalorg/editor (4.5k)** for TypeScript editing, and **supermemoryai/supermemory (18k)** for fast AI memory infrastructure.
+1. Select text in any app
+2. Click the floating rewrite button
+3. Echoo rewrites it inline without interrupting your flow
 
 **BYOK** - Bring your own API key. Your text goes directly to your chosen provider. Echoo never sees your data. Built with Swift and SwiftUI. No Electron. No web views.
 
@@ -108,7 +102,7 @@ Example:
 
 Echoo detects the current text automatically, runs the command you trigger by voice or shortcut, and returns the result inline. Fix grammar, change tone, translate, summarize, or run a custom prompt without breaking flow.
 
-- **Rewrite** (`⌥R`) - Fix grammar and polish. Replaces your selection inline.
+- **Rewrite** (`⌥R` or floating button) - Fix grammar and polish. Replaces your selection inline.
 - **Summarize** (`⌥S`) - Key points and action items in a popup.
 - **Translate** (`⌥T`) - Translate to any language without switching apps.
 - **Ask** (`⌥A`) - Ask questions about selected text. Answers in a popup.
@@ -222,6 +216,10 @@ Custom commands get their own shortcuts from a dedicated pool.
 ---
 
 ## What's New
+
+### v0.13.0-beta - Floating Rewrite Button
+
+- **Immediate rewrite** - Select text and use the floating button to polish it inline without remembering a shortcut.
 
 ### v0.12.5-beta - Performance Improvements
 
