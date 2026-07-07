@@ -2,14 +2,14 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. New in <strong>v0.13.0-beta</strong>: a floating rewrite button appears when you select text, so you can polish it immediately without remembering a shortcut.</p>
+  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.0</strong> - Echoo's first official release, out of beta. Select text and a floating rewrite button appears, so you can polish it immediately without remembering a shortcut.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-0.13.0--beta-blue?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-1.0.0-success?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -43,7 +43,7 @@
 2. Trigger a command by voice or shortcut
 3. Get the result back inline
 
-New in **v0.13.0-beta**, Echoo adds a **floating rewrite button** for immediate polishing:
+Echoo also adds a **floating rewrite button** for immediate polishing:
 
 1. Select text in any app
 2. Click the floating rewrite button
@@ -216,6 +216,11 @@ Custom commands get their own shortcuts from a dedicated pool.
 ---
 
 ## What's New
+
+### v1.0.0 - First Official Release
+
+- **Out of beta** - Echoo's first official release. The most complete and stable version yet.
+- **Everything from the beta, shipped** - Inline text commands, on-device dictation, file actions, screen context, Voice Launcher, Read Aloud, and Claude Code Skills, all in one polished release.
 
 ### v0.13.0-beta - Floating Rewrite Button
 
