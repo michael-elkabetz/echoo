@@ -220,7 +220,12 @@ Custom commands get their own shortcuts from a dedicated pool.
 ### v1.0.0 - First Official Release
 
 - **Out of beta** - Echoo's first official release. The most complete and stable version yet.
-- **Everything from the beta, shipped** - Inline text commands, on-device dictation, file actions, screen context, Voice Launcher, Read Aloud, and Claude Code Skills, all in one polished release.
+- **Dramatic performance improvements** - Faster processing, lower latency, and smoother workflows across the whole app.
+- **Floating rewrite button** - Select text and a floating icon appears. Press it to rewrite inline, no shortcut to remember.
+- **No API key required** - Subscribe and Echoo handles the API key for you. BYOK is still fully supported if you prefer your own.
+- **Subscription plans**:
+  - **400 tokens** - ~~$9.99~~ **$6.99/mo** (launch discount)
+  - **800 tokens** - ~~$12.99~~ **$9.99/mo** (launch discount)
 
 ### v0.13.0-beta - Floating Rewrite Button
 
