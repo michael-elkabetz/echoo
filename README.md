@@ -2,14 +2,14 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.0</strong> - Echoo's first official release, out of beta. Select text and a floating rewrite button appears, so you can polish it immediately without remembering a shortcut.</p>
+  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.2</strong> - Echoo's first official release, out of beta. Select text and a floating rewrite button appears, so you can polish it immediately without remembering a shortcut.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-1.0.0-success?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-1.0.2-success?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
