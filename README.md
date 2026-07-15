@@ -2,14 +2,14 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.3</strong> - Echoo's first official release, out of beta. Select text and a floating rewrite button appears, so you can polish it immediately without remembering a shortcut.</p>
+  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.4</strong> with more reliable Screen Context capture and attachment handling.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-1.0.3-success?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-1.0.4-success?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -217,6 +217,12 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
+### v1.0.4 - Screen Context Reliability
+
+- **Reliable capture timing** - Screen Context now captures before text selection can change the active window.
+- **Sharper, efficient screenshots** - Retina captures are resized correctly before being attached to AI commands.
+- **Attachment handling fixes** - Screen-aware commands now receive screenshots more consistently.
+
 ### v1.0.0 - First Official Release
 
 - **Out of beta** - Echoo's first official release. The most complete and stable version yet.
@@ -224,8 +230,8 @@ Custom commands get their own shortcuts from a dedicated pool.
 - **Floating rewrite button** - Select text and a floating icon appears. Press it to rewrite inline, no shortcut to remember.
 - **No API key required** - Subscribe and Echoo handles the API key for you. BYOK is still fully supported if you prefer your own.
 - **Subscription plans**:
-  - **300 tokens** - ~~$9.99~~ **$6.99/mo** (launch discount)
-  - **600 tokens** - ~~$12.99~~ **$9.99/mo** (launch discount)
+  - **300 credits** - ~~$9.99~~ **$6.99/mo** (launch discount)
+  - **600 credits** - ~~$12.99~~ **$9.99/mo** (launch discount)
 
 ### v0.13.0-beta - Floating Rewrite Button
 
