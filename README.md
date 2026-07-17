@@ -2,14 +2,14 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.4</strong> with more reliable Screen Context capture and attachment handling.</p>
+  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.5</strong> with faster, more reliable text processing and Screen Context capture.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-1.0.4-success?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-1.0.5-success?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -216,6 +216,12 @@ Custom commands get their own shortcuts from a dedicated pool.
 ---
 
 ## What's New
+
+### v1.0.5 - Faster Text Processing
+
+- **Faster command startup** - Processing feedback now appears immediately while text and screen context are captured.
+- **More reliable text handling** - Selection capture, inline replacement, and clipboard restoration are more robust under load.
+- **Faster Screen Context** - Screenshots are captured and encoded concurrently without blocking text processing.
 
 ### v1.0.4 - Screen Context Reliability
 
