@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.5</strong> with faster, more reliable text processing and Screen Context capture.</p>
+  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Rewrite, proofread, fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.5</strong> with faster, more reliable text processing and Screen Context capture.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
@@ -100,9 +100,9 @@ Echoo also adds a **floating rewrite button** for immediate polishing:
 
 ### Transform text inline
 
-Echoo detects the current text automatically, runs the command you trigger by voice or shortcut, and returns the result inline. Fix grammar, change tone, translate, summarize, or run a custom prompt without breaking flow.
+Echoo detects the current text automatically, runs the command you trigger by voice or shortcut, and returns the result inline. Fix grammar, proofread, rewrite in a different tone, translate, summarize, or run a custom prompt without breaking flow.
 
-- **Rewrite** (`⌥R` or floating button) - Fix grammar and polish. Replaces your selection inline.
+- **Rewrite** (`⌥R` or floating button) - Proofread, fix grammar, and polish. Replaces your selection inline.
 - **Summarize** (`⌥S`) - Key points and action items in a popup.
 - **Translate** (`⌥T`) - Translate to any language without switching apps.
 - **Ask** (`⌥A`) - Ask questions about selected text. Answers in a popup.
@@ -199,7 +199,7 @@ All shortcuts use the **Option (⌥)** key and are fully customizable in Setting
 
 | Shortcut | Command |
 |----------|---------|
-| `⌥R` | **Rewrite** - Fix grammar & polish (inline replace) |
+| `⌥R` | **Rewrite** - Proofread, fix grammar & polish (inline replace) |
 | `⌥S` | **Summarize** - Key points (popup) |
 | `⌥T` | **Translate** - Translate to chosen language (popup) |
 | `⌥A` | **Ask** - Q&A about selected text (popup) |
@@ -291,6 +291,8 @@ Most AI tools live behind a chat window. You copy text, switch tabs, paste it, w
 
 Echoo is a macOS AI shortcut layer built for inline execution instead of chat-window context switching. Select text in any app, trigger a command by voice or shortcut, and the result appears right where you're working. Same for files, dictation, screen-aware tasks, and now Claude Code Skills that can run without pulling you into the CLI.
 
+It also works as AI writing automation: the edits you repeat every day - proofreading, grammar fixes, tone rewrites, translation - become saved commands and multi-step workflows that run from one shortcut in any Mac app.
+
 Free, open source, and built in public.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
@@ -352,6 +354,7 @@ Have a bug or a feature idea?
 - **Releases**: [GitHub Releases](https://github.com/michael-elkabetz/echoo/releases)
 - **Marketplace**: [echoo.ai/marketplace](https://www.echoo.ai/marketplace)
 - **Blog**: [echoo.ai/blog](https://echoo.ai/blog)
+- **Guides**: [Best AI rewrite tools for Mac](https://www.echoo.ai/learn/best-ai-rewrite-tools) &middot; [Best AI proofreading tools](https://www.echoo.ai/learn/best-ai-proofreading-tools) &middot; [AI writing automation on Mac](https://www.echoo.ai/use-cases/ai-writing-automation-mac)
 - **Ko-fi**: [ko-fi.com/echooai](https://ko-fi.com/echooai)
 - **Twitter**: [@echoo_app](https://twitter.com/echoo_app)
 - **About Me**: [mike.org.il](https://mike.org.il)
