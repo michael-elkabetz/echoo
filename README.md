@@ -55,21 +55,22 @@ Echoo also adds a **floating rewrite button** for immediate polishing:
 
 ## Two Ways to Use Echoo
 
-Pick what fits you - both give you the full command system.
+Pick what fits you - text manipulation is on both. Voice dictation with AI post-processing, voice command execution, and local models are BYOK only.
 
-|  | Managed | BYOK (free) |
+|  | Managed | BYOK |
 |---|---|---|
-| Setup | Sign in, no key | Add your own API key |
-| Cost | 10 free credits to try | Free forever |
+| Setup | Sign in, ready in seconds | Get a key from a provider first |
+| Provider account | Not needed | Required (OpenAI, Anthropic, Google, or local) |
+| Cost | 10 free credits, then subscribe | Free forever |
 | Text manipulation (rewrite, proofread, translate, summarize) | ✅ | ✅ |
 | Screen Context rewrite | ✅ | ✅ |
 | Custom system prompts | ✅ | ✅ |
-| Voice dictation + your own AI post-processing rules | ✅ | ✅ |
-| Voice command execution | ✅ | ✅ |
-| Local/offline models (Ollama, LocalAI, LiteLLM) | - | ✅ |
+| Voice dictation + your own AI post-processing rules | - | ✅ |
+| Voice command execution | - | ✅ |
+| Local/offline models | - | ✅ |
 
-- **Managed** - No API key, no setup. Sign in and try every command with 10 free credits.
-- **BYOK** - Bring your own key from OpenAI, Anthropic, or Google, or point Echoo at a local model. Text manipulation, Screen Context rewrite, custom system prompts, voice dictation with your own AI post-processing rules, and voice command execution are all free, forever - not a trial.
+- **Managed** - No provider account, no API key to manage. Sign in and start immediately with 10 free credits, then subscribe for unlimited use.
+- **BYOK** - Prefer full control? Bring your own key from OpenAI, Anthropic, or Google, or run a local model. Every feature - Screen Context rewrite, custom system prompts, voice dictation with your own AI post-processing rules, voice command execution - included free.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
