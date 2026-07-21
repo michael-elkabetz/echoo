@@ -39,6 +39,18 @@
 
 ---
 
+## Why Echoo
+
+Echoo is the only Mac text tool that rewrites using what's on your screen, not just what you selected - every other AI writing tool works blind.
+
+Most AI tools live behind a chat window. You copy text, switch tabs, paste it, write a prompt, wait, copy the result, switch back, and paste again. The workflow breaks every time. Echoo skips all of that - select text, trigger a command, get the result inline.
+
+The edits you repeat every day - proofreading, grammar fixes, tone rewrites, translation - become saved commands and multi-step workflows that run from one shortcut in any Mac app.
+
+Free, open source, and built in public.
+
+---
+
 ### How it works
 
 1. Echoo detects the current text or file
@@ -69,6 +81,7 @@ Pick what fits you - text manipulation (rewrite, proofread, translate, summarize
 <details id="table-of-contents">
 <summary><strong>Table of Contents</strong></summary>
 
+- [Why Echoo](#why-echoo)
 - [Two Ways to Use Echoo](#two-ways-to-use-echoo)
 - [Quick Start](#quick-start)
 - [Core Workflows](#core-workflows)
@@ -79,7 +92,6 @@ Pick what fits you - text manipulation (rewrite, proofread, translate, summarize
 - [Bring Your Own Model](#bring-your-own-model)
 - [Default Shortcuts](#default-shortcuts)
 - [What's New](#whats-new)
-- [Why Echoo](#why-echoo)
 - [FAQ](#faq)
 - [Privacy](#privacy)
 - [Keep Echoo Shipping](#keep-echoo-shipping)
@@ -238,22 +250,6 @@ Custom commands get their own shortcuts from a dedicated pool.
 ### v1.0.6 - Managed Plan
 
 - **Managed plan shipped** - Sign in and start immediately with 10 free credits, no API key required. BYOK remains free forever for anyone who prefers their own key.
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## Why Echoo
-
-Echoo is the only Mac text tool that rewrites using what's on your screen, not just what you selected - every other AI writing tool works blind.
-
-Most AI tools live behind a chat window. You copy text, switch tabs, paste it, write a prompt, wait, copy the result, switch back, and paste again. The workflow breaks every time.
-
-Echoo is a macOS AI shortcut layer built for inline execution instead of chat-window context switching. Select text in any app, trigger a command by voice or shortcut, and the result appears right where you're working. Same for files, dictation, screen-aware tasks, and now Claude Code Skills that can run without pulling you into the CLI.
-
-It also works as AI writing automation: the edits you repeat every day - proofreading, grammar fixes, tone rewrites, translation - become saved commands and multi-step workflows that run from one shortcut in any Mac app.
-
-Free, open source, and built in public.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
