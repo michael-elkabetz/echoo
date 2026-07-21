@@ -2,7 +2,9 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Rewrite, proofread, translate, and summarize - with the only Mac rewrite that can see your screen, not just your selection. Now at <strong>v1.0.6</strong>.</p>
+  <p>Write in your language and watch it land in fluent English - same tone, same voice. Echoo rewrites, proofreads, translates, and summarizes inline anywhere on your Mac, powered by Screen Context and a system prompt you fully control. Sign in free, no API key needed, and your text stays private the whole way.</p>
+
+  <p>🌍 Native language → English &middot; 🖥️ Screen Context &middot; 🎛️ Custom system prompts &middot; 🔒 Privacy by design &middot; 🤖 AI writing automation</p>
 
   <p>
     <a href="https://www.echoo.ai/">
@@ -55,28 +57,17 @@ Echoo also adds a **floating rewrite button** for immediate polishing:
 
 ## Two Ways to Use Echoo
 
-Pick what fits you - text manipulation is on both. Voice dictation with AI post-processing, voice command execution, and local models are BYOK only.
-
-|  | Managed | BYOK |
-|---|---|---|
-| Setup | Sign in, ready in seconds | Get a key from a provider first |
-| Provider account | Not needed | Required (OpenAI, Anthropic, Google, or local) |
-| Cost | 10 free credits, then subscribe | Free forever |
-| Text manipulation (rewrite, proofread, translate, summarize) | ✅ | ✅ |
-| Screen Context rewrite | ✅ | ✅ |
-| Custom system prompts | ✅ | ✅ |
-| Voice dictation + your own AI post-processing rules | - | ✅ |
-| Voice command execution | - | ✅ |
-| Local/offline models | - | ✅ |
+Pick what fits you - text manipulation (rewrite, proofread, translate, summarize), Screen Context rewrite, and custom system prompts are on both.
 
 - **Managed** - No provider account, no API key to manage. Sign in and start immediately with 10 free credits, then subscribe for unlimited use.
-- **BYOK** - Prefer full control? Bring your own key from OpenAI, Anthropic, or Google, or run a local model. Every feature - Screen Context rewrite, custom system prompts, voice dictation with your own AI post-processing rules, voice command execution - included free.
+- **BYOK** - Bring your own key from OpenAI, Anthropic, or Google, or run a local model. Free forever, and it's the only way to get voice dictation with your own AI post-processing rules, voice command execution, and local/offline models.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
 ---
 
-## Table of Contents
+<details id="table-of-contents">
+<summary><strong>Table of Contents</strong></summary>
 
 - [Two Ways to Use Echoo](#two-ways-to-use-echoo)
 - [Quick Start](#quick-start)
@@ -94,6 +85,8 @@ Pick what fits you - text manipulation is on both. Voice dictation with AI post-
 - [Keep Echoo Shipping](#keep-echoo-shipping)
 - [Community](#community)
 - [Links](#links)
+
+</details>
 
 ---
 
