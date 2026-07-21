@@ -2,14 +2,14 @@
   <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
   <h1>Echoo</h1>
   <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Rewrite, proofread, fix grammar, adjust tone, translate, summarize - on text or entire files. Now at <strong>v1.0.5</strong> with faster, more reliable text processing and Screen Context capture.</p>
+  <p>Echoo detects the text you type, executes commands triggered by voice or shortcuts, and returns results inline. Rewrite, proofread, translate, and summarize - with the only Mac rewrite that can see your screen, not just your selection. Now at <strong>v1.0.6</strong>.</p>
 
   <p>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-1.0.5-success?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-1.0.6-success?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -53,8 +53,31 @@ Echoo also adds a **floating rewrite button** for immediate polishing:
 
 ---
 
+## Two Ways to Use Echoo
+
+Pick what fits you - both give you the full command system.
+
+|  | Managed | BYOK (free) |
+|---|---|---|
+| Setup | Sign in, no key | Add your own API key |
+| Cost | 10 free credits to try | Free forever |
+| Text manipulation (rewrite, proofread, translate, summarize) | ✅ | ✅ |
+| Screen Context rewrite | ✅ | ✅ |
+| Custom system prompts | ✅ | ✅ |
+| Voice dictation + your own AI post-processing rules | ✅ | ✅ |
+| Voice command execution | ✅ | ✅ |
+| Local/offline models (Ollama, LocalAI, LiteLLM) | - | ✅ |
+
+- **Managed** - No API key, no setup. Sign in and try every command with 10 free credits.
+- **BYOK** - Bring your own key from OpenAI, Anthropic, or Google, or point Echoo at a local model. Text manipulation, Screen Context rewrite, custom system prompts, voice dictation with your own AI post-processing rules, and voice command execution are all free, forever - not a trial.
+
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
+
+---
+
 ## Table of Contents
 
+- [Two Ways to Use Echoo](#two-ways-to-use-echoo)
 - [Quick Start](#quick-start)
 - [Core Workflows](#core-workflows)
   - [Transform text inline](#transform-text-inline)
@@ -65,6 +88,7 @@ Echoo also adds a **floating rewrite button** for immediate polishing:
 - [Default Shortcuts](#default-shortcuts)
 - [What's New](#whats-new)
 - [Why Echoo](#why-echoo)
+- [FAQ](#faq)
 - [Privacy](#privacy)
 - [Keep Echoo Shipping](#keep-echoo-shipping)
 - [Community](#community)
@@ -76,7 +100,7 @@ Echoo also adds a **floating rewrite button** for immediate polishing:
 
 1. **Download** - Grab the latest version from [echoo.ai](https://www.echoo.ai/).
 2. **Install** - Open the DMG and drag Echoo to Applications.
-3. **Set up** - Launch Echoo, grant Accessibility permission, and add your API key.
+3. **Set up** - Launch Echoo, grant Accessibility permission, then either sign in for the managed plan (10 free credits, no key needed) or add your own API key for BYOK (free forever).
 4. **Use it** - Select text anywhere, press a shortcut, get the result inline.
 
 **Optional:**
@@ -104,7 +128,7 @@ Echoo detects the current text automatically, runs the command you trigger by vo
 
 - **Rewrite** (`⌥R` or floating button) - Proofread, fix grammar, and polish. Replaces your selection inline.
 - **Summarize** (`⌥S`) - Key points and action items in a popup.
-- **Translate** (`⌥T`) - Translate to any language without switching apps.
+- **Translate** (`⌥T`) - Translate to any language without switching apps. Write in your native language and translate inline into English (or back) while Echoo keeps your tone and style - casual stays casual, formal stays formal.
 - **Ask** (`⌥A`) - Ask questions about selected text. Answers in a popup.
 - **Prompt Craft** (`⌥P`) - Optimize any prompt using a multi-layer architecture.
 
@@ -150,7 +174,7 @@ In Echoo, commands are reusable system prompts that work across different inputs
 - **Per-command model** - Assign a different provider and model to each command.
 - **Claude Code Skills** - This is the new workflow. Run Claude Code Skills by voice or shortcut, skip the CLI, and get the result back on screen. When needed, Echoo still uses the right folder in the background for repo-aware work.
 - **Real skill example** - Ask `/github-trending` for a daily AI-powered summary and Echoo brings back the top repositories, what they do, and why they matter in one compact result.
-- **Screen context** - Toggle on to attach a screenshot with any command. AI gets your text + what's on screen. Uses macOS ScreenCaptureKit.
+- **Screen Context** - Toggle on to attach a screenshot with any command. The AI sees your text *and* what's on screen - the only Mac rewrite tool that can do this. Uses macOS ScreenCaptureKit.
 - **Import & export** - Share commands as `.echoo` files or download from the [marketplace](https://www.echoo.ai/marketplace).
 
 <div align="center">
@@ -287,6 +311,8 @@ Echoo is heading toward its first official release. This is the most complete ve
 
 ## Why Echoo
 
+Echoo is the only Mac text tool that rewrites using what's on your screen, not just what you selected - every other AI writing tool works blind.
+
 Most AI tools live behind a chat window. You copy text, switch tabs, paste it, write a prompt, wait, copy the result, switch back, and paste again. The workflow breaks every time.
 
 Echoo is a macOS AI shortcut layer built for inline execution instead of chat-window context switching. Select text in any app, trigger a command by voice or shortcut, and the result appears right where you're working. Same for files, dictation, screen-aware tasks, and now Claude Code Skills that can run without pulling you into the CLI.
@@ -294,6 +320,30 @@ Echoo is a macOS AI shortcut layer built for inline execution instead of chat-wi
 It also works as AI writing automation: the edits you repeat every day - proofreading, grammar fixes, tone rewrites, translation - become saved commands and multi-step workflows that run from one shortcut in any Mac app.
 
 Free, open source, and built in public.
+
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
+
+---
+
+## FAQ
+
+**What is Echoo?**
+Echoo is a macOS AI shortcut layer that rewrites, proofreads, translates, and summarizes text inline in any app - triggered by voice or keyboard shortcut, with no chat window and no copy-paste.
+
+**Is Echoo free?**
+Yes. BYOK (bring your own API key) is free forever, including text manipulation, Screen Context rewrite, custom system prompts, voice dictation with your own AI post-processing rules, and voice command execution. The managed plan (no key needed) starts with 10 free credits.
+
+**Do I need an API key to use Echoo?**
+No. Sign in to the managed plan and Echoo handles the key for you, starting with 10 free credits. If you'd rather use your own OpenAI, Anthropic, or Google key - or a local model via Ollama, LocalAI, or LiteLLM - BYOK is free forever.
+
+**What makes Echoo different from other AI writing tools?**
+Screen Context: Echoo can attach a screenshot to any rewrite, so the AI sees the thread, doc, or design behind your selected text - not just an isolated sentence. No other Mac text tool does this.
+
+**Does Echoo work offline?**
+Yes, for voice. Dictation runs entirely on-device using NVIDIA Parakeet v3, with zero cloud dependency. Text commands need a model - either a cloud provider or a local model via Ollama, LocalAI, or LiteLLM for a fully offline setup.
+
+**What languages does Echoo support?**
+On-device dictation covers 25+ languages. Translate and rewrite commands support any language your chosen AI model handles, including translating inline into English while keeping your original tone and style.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
