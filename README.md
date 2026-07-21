@@ -235,69 +235,9 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v1.0.5 - Faster Text Processing
+### v1.0.6 - Managed Plan
 
-- **Faster command startup** - Processing feedback now appears immediately while text and screen context are captured.
-- **More reliable text handling** - Selection capture, inline replacement, and clipboard restoration are more robust under load.
-- **Faster Screen Context** - Screenshots are captured and encoded concurrently without blocking text processing.
-
-### v1.0.4 - Screen Context Reliability
-
-- **Reliable capture timing** - Screen Context now captures before text selection can change the active window.
-- **Sharper, efficient screenshots** - Retina captures are resized correctly before being attached to AI commands.
-- **Attachment handling fixes** - Screen-aware commands now receive screenshots more consistently.
-
-### v1.0.0 - First Official Release
-
-- **Out of beta** - Echoo's first official release. The most complete and stable version yet.
-- **Dramatic performance improvements** - Faster processing, lower latency, and smoother workflows across the whole app.
-- **Floating rewrite button** - Select text and a floating icon appears. Press it to rewrite inline, no shortcut to remember.
-- **No API key required** - Subscribe and Echoo handles the API key for you. BYOK is still fully supported if you prefer your own.
-- **Subscription plans**:
-  - **300 credits** - ~~$9.99~~ **$6.99/mo** (launch discount)
-  - **600 credits** - ~~$12.99~~ **$9.99/mo** (launch discount)
-
-### v0.13.0-beta - Floating Rewrite Button
-
-- **Immediate rewrite** - Select text and use the floating button to polish it inline without remembering a shortcut.
-
-### v0.12.5-beta - Performance Improvements
-
-- **Performance improvements** - Faster processing, reduced latency, and overall stability enhancements across the app.
-
-### v0.12.1-beta - Claude Code Skills
-
-- **A new way to use Claude Code** - Echoo now lets you run **Claude Code Skills** by voice or keyboard shortcut, without opening the CLI first.
-- **Results come back on screen** - Instead of jumping into a terminal and breaking flow, you stay in context and get the response directly in Echoo's normal result surface.
-- **Fits the rest of Echoo** - Claude Code Skills now feel like part of the same system as text commands, voice workflows, file actions, and screen-aware tasks.
-
-### v0.11.1-beta - Auto Select All & Voice Launcher Control Key
-
-- **Auto select all** - No more `⌘A` before running inline commands. Echoo automatically selects all text when nothing is selected, so you can just press your shortcut and go.
-- **Voice Launcher default key changed** - Voice Launcher now defaults to the Control key (⌃) instead of Fn. Hold Control, speak a command name, and it executes. Fully customizable in Settings.
-
-### v0.11.0-beta - Heading to Official Release
-
-Echoo is heading toward its first official release. This is the most complete version yet.
-
-- **Screen Context** - Attach a screenshot to any command so the AI can see what's on your screen. Uses macOS ScreenCaptureKit. Toggle per-command in Settings. Works with built-in, custom, and voice instruction commands. When using voice instruction without selected text, Echoo switches to screen-only analysis mode.
-- **Voice Launcher** - Hold a key (default: Control ⌃), speak a command name, and it executes instantly. Works with all built-in commands, custom commands, and marketplace commands. Recognizes variations ("re-write", "summarise", "read out loud"). A voice-activated command palette - no shortcut memorization needed.
-- **Read Aloud with AI Pre-Processing** - Select any text and hear it spoken aloud using macOS text-to-speech. Auto-detects language across 25+ languages. Adjustable speed (0.5x-2x). Chain any AI command as a pre-processing step - e.g., summarize an article, translate the summary to French, then hear it read aloud.
-- **Undo support** - Every inline text replacement can be undone with `⌘Z`. Echoo restores your original text instantly.
-- **Cleaner command management** - Disabled commands are now removed from the active command list, keeping your workspace clean.
-- **UX refinements** - Quality-of-life fixes across text processing, clipboard handling, and voice flows.
-
-### v0.10.6 - Model Updates, Voice Engine & Polish
-
-- **Latest models** - Updated to GPT-5.2, Claude Opus 4.6, Gemini 3 Pro/Flash, and more.
-- **Voice custom commands** - Create custom commands triggered by voice input.
-- **UI refinements** - Improved settings layout, command cards, and overall polish.
-- **Dark mode** - Full dark mode support across the entire app.
-- **Notch-aligned toasts** - Processing and error notifications align elegantly with the macOS notch.
-- **Onboarding** - Guided first-run experience for permissions, API key, and command overview.
-- **Completion sound** - Optional audio feedback when processing finishes.
-- **Dramatically improved voice engine** - Parakeet v3 for faster, more accurate on-device speech recognition.
-- **Bug fixes and stability improvements** across text processing, clipboard handling, and voice flows.
+- **Managed plan shipped** - Sign in and start immediately with 10 free credits, no API key required. BYOK remains free forever for anyone who prefers their own key.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
