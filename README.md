@@ -11,7 +11,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-1.0.7-success?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-1.0.8-success?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -201,11 +201,11 @@ Echoo does not lock you into one provider. Keep the same shortcut and command wo
 
 Best for reach, speed, and the latest frontier models.
 
-| Provider | Models | Default |
-|----------|--------|---------|
-| **OpenAI** | GPT-4.1 Nano, GPT-5 Mini, GPT-5.2 | GPT-4.1 Nano |
-| **Anthropic** | Claude Haiku 4.5, Claude Sonnet 4.5, Claude Opus 4.6 | Claude Haiku 4.5 |
-| **Google** | Gemini 2.5 Flash Lite, Gemini 2.5 Pro, Gemini 3 Pro, Gemini 3 Flash | Gemini 2.5 Flash Lite |
+| Provider | Powerful | Balanced | Fast |
+|----------|----------|----------|------|
+| **OpenAI** | GPT-5.5 | GPT-5.4 Mini | GPT-5.4 Nano |
+| **Anthropic** | Claude Opus 4.8 | Claude Sonnet 5 | Claude Haiku 4.5 |
+| **Google Gemini** | Gemini 3.5 Pro | Gemini 3.6 Flash | Gemini 3.5 Flash-Lite |
 
 ### Local models
 
@@ -247,9 +247,10 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v1.0.6 - Managed Plan
+### v1.0.8 - Current Model Lineup
 
-- **Managed plan shipped** - Sign in and start immediately with 10 free credits, no API key required. BYOK remains free forever for anyone who prefers their own key.
+- **Latest cloud models** - OpenAI GPT-5.5, GPT-5.4 Mini, and GPT-5.4 Nano; Anthropic Claude Opus 4.8, Claude Sonnet 5, and Claude Haiku 4.5; Google Gemini 3.5 Pro, Gemini 3.6 Flash, and Gemini 3.5 Flash-Lite.
+- **Managed plan** - Sign in and start immediately with 10 free credits, no API key required. BYOK remains free forever for anyone who prefers their own key.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
