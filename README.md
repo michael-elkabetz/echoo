@@ -11,7 +11,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-1.0.8-success?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-1.1.0-success?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -71,7 +71,7 @@ Echoo also adds a **floating rewrite button** for immediate polishing:
 
 Pick what fits you - text manipulation (rewrite, proofread, translate, summarize), Screen Context rewrite, and custom system prompts are on both.
 
-- **Managed** - No provider account, no API key to manage. Sign in and start immediately with 10 free credits, then subscribe for unlimited use.
+- **Managed** - No provider account, no API key to manage. Sign in and start immediately with 10 free credits, then subscribe for unlimited use. It's also the only way to get Memory, where commands learn from your past requests and get better at writing the way you do.
 - **BYOK** - Bring your own key from OpenAI, Anthropic, or Google, or run a local model. Free forever, and it's the only way to get voice dictation with your own AI post-processing rules, voice command execution, and local/offline models.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
@@ -181,6 +181,7 @@ In Echoo, commands are reusable system prompts that work across different inputs
 - **Claude Code Skills** - This is the new workflow. Run Claude Code Skills by voice or shortcut, skip the CLI, and get the result back on screen. When needed, Echoo still uses the right folder in the background for repo-aware work.
 - **Real skill example** - Ask `/github-trending` for a daily AI-powered summary and Echoo brings back the top repositories, what they do, and why they matter in one compact result.
 - **Screen Context** - Toggle on to attach a screenshot with any command. The AI sees your text *and* what's on screen - the only Mac rewrite tool that can do this. Uses macOS ScreenCaptureKit.
+- **Memory** - Toggle on and the command remembers your earlier requests and its own earlier results, then learns from them: your terminology and names, your tone, how long your sentences run, how much detail you keep. Each result needs a little less fixing than the last, and your company's name stops getting "corrected" out of your writing. Per command, so translation memory never bleeds into rewrite, and resettable whenever you want a clean slate. Managed plan only.
 - **Import & export** - Share commands as `.echoo` files or download from the [marketplace](https://www.echoo.ai/marketplace).
 
 <div align="center">
@@ -247,10 +248,10 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v1.0.8 - Current Model Lineup
+### v1.1.0 - Memory
 
-- **Latest cloud models** - OpenAI GPT-5.5, GPT-5.4 Mini, and GPT-5.4 Nano; Anthropic Claude Opus 4.8, Claude Sonnet 5, and Claude Haiku 4.5; Google Gemini 3.5 Pro, Gemini 3.6 Flash, and Gemini 3.5 Flash-Lite.
-- **Managed plan** - Sign in and start immediately with 10 free credits, no API key required. BYOK remains free forever for anyone who prefers their own key.
+- **Memory** - Turn it on for any command and it starts learning from your past requests: your terminology and names, your tone, how long your sentences run, how much detail you keep. Each result needs a little less fixing than the last, and your company's name stops getting "corrected" out of your writing. Each command keeps its own memory, and you can reset it whenever you want a clean slate. Managed plan only.
+- **Voice Launcher is off by default** - It now waits until you switch it on in Settings instead of claiming its shortcut on a fresh install.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
