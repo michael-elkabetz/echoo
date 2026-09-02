@@ -11,7 +11,7 @@
       <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
     </a>
     <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-1.1.1-success?style=for-the-badge" alt="Version" />
+      <img src="https://img.shields.io/badge/Version-1.1.2-success?style=for-the-badge" alt="Version" />
     </a>
     <a href="https://www.echoo.ai/">
       <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
@@ -248,7 +248,7 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v1.1.1 - Memory
+### v1.1.2 - Memory
 
 - **Memory** - Turn it on for any command and it starts learning from your past requests: your terminology and names, your tone, how long your sentences run, how much detail you keep. Each result needs a little less fixing than the last, and your company's name stops getting "corrected" out of your writing. Each command keeps its own memory, and you can reset it whenever you want a clean slate. Managed plan only.
 - **Voice Launcher is off by default** - It now waits until you switch it on in Settings instead of claiming its shortcut on a fresh install.
