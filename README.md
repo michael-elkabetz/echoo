@@ -248,7 +248,7 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v1.2.1 - Memory
+### v1.3.0 - Memory
 
 - **Memory** - Turn it on for any command and it starts learning from your past requests: your terminology and names, your tone, how long your sentences run, how much detail you keep. Each result needs a little less fixing than the last, and your company's name stops getting "corrected" out of your writing. Each command keeps its own memory, and you can reset it whenever you want a clean slate. Managed plan only.
 - **Voice Launcher is off by default** - It now waits until you switch it on in Settings instead of claiming its shortcut on a fresh install.
