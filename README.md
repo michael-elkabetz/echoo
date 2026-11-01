@@ -1,78 +1,76 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Echoo Icon" width="128" height="128" />
-  <h1>Echoo</h1>
-  <p><strong>Use AI in any app without leaving it.</strong></p>
-  <p>Write in your language and watch it land in fluent English - same tone, same voice. Echoo rewrites, proofreads, translates, and summarizes inline anywhere on your Mac, powered by Screen Context and a system prompt you fully control. Sign in free, no API key needed, and your text stays private the whole way.</p>
-
-  <p>🌍 Native language → English &middot; 🖥️ Screen Context &middot; 🎛️ Custom system prompts &middot; 🔒 Privacy by design &middot; 🤖 AI writing automation</p>
+  <h1>Echoo - Your Personal AI Assistant</h1>
+  <img src="assets/echoo-personal-ai.png" alt="Echoo — Your Personal AI Assistant. Made for your Mac." width="100%" />
+  <p>Echoo knows the background you share, reuses context with optional Memory, and includes Screen Context when you enable it. Rewrite, translate, summarize, or run your own skill where you write — with wording that feels like you.</p>
 
   <p>
-    <a href="https://www.echoo.ai/">
-      <img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 14+" />
-    </a>
-    <a href="https://github.com/michael-elkabetz/echoo/releases">
-      <img src="https://img.shields.io/badge/Version-1.3.5-success?style=for-the-badge" alt="Version" />
-    </a>
-    <a href="https://www.echoo.ai/">
-      <img src="https://img.shields.io/badge/Price-Free-success?style=for-the-badge" alt="Free" />
-    </a>
+    <a href="https://www.echoo.ai/"><img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&amp;logo=apple&amp;logoColor=white" alt="macOS 14+" /></a>
+    <a href="https://github.com/michael-elkabetz/echoo/releases"><img src="https://img.shields.io/badge/Version-1.3.5-success?style=for-the-badge" alt="Version 1.3.5" /></a>
+    <a href="https://www.echoo.ai/pricing"><img src="https://img.shields.io/badge/Try_it-10_free_credits-success?style=for-the-badge" alt="Try Echoo with 10 free credits" /></a>
   </p>
 
   <p>
-    <a href="https://www.echoo.ai/"><strong>Download for macOS</strong></a> &middot;
-    <a href="https://www.echoo.ai/marketplace">Marketplace</a> &middot;
-    <a href="../../issues/new?labels=bug">Report Bug</a> &middot;
-    <a href="../../issues/new?labels=enhancement">Request Feature</a>
+    <a href="https://www.echoo.ai/"><strong>Download for Mac</strong></a> &middot;
+    <a href="https://www.echoo.ai/marketplace">Find a skill</a> &middot;
+    <a href="../../issues/new?labels=bug">Report a bug</a> &middot;
+    <a href="../../issues/new?labels=enhancement">Request a feature</a>
   </p>
-
   <p>
-    <a href="#core-workflows">Workflows</a> &middot;
-    <a href="#bring-your-own-model">Models</a> &middot;
-    <a href="#quick-start">Quick Start</a> &middot;
-    <a href="#whats-new">What's New</a>
+    <a href="#echoo---your-personal-ai-assistant">Your assistant</a> &middot;
+    <a href="#empower-your-fox">Custom skills</a> &middot;
+    <a href="#quick-start">Quick start</a> &middot;
+    <a href="#core-workflows">See it in use</a>
   </p>
-
-  <br/>
-
-  <img src="assets/examples/echoo.gif" alt="Echoo in action" width="600" />
 </div>
 
 ---
 
-## Why Echoo
+## Echoo - Your Personal AI Assistant
 
-Echoo is the only Mac text tool that rewrites using what's on your screen, not just what you selected - every other AI writing tool works blind.
+Your words carry your voice. Echoo helps you sharpen them in supported Mac text fields, using the context you choose to share.
 
-Most AI tools live behind a chat window. You copy text, switch tabs, paste it, write a prompt, wait, copy the result, switch back, and paste again. The workflow breaks every time. Echoo skips all of that - select text, trigger a command, get the result inline.
+- **Your background** — Add your role, audience, and writing preferences in Personalization so suggestions fit the person behind the text.
+- **Optional Memory** — Reuse earlier conversation context within a skill, helping it keep your terminology and preferences. Available on Pro, Max, and Business; off by default and enabled per command.
+- **Screen Context** — Enable it when a reply depends on the conversation, document, or app on screen. Echoo includes a screenshot with that command.
+- **Your own skills** — Save the instructions you use often, choose their context, and give each one a shortcut.
 
-The edits you repeat every day - proofreading, grammar fixes, tone rewrites, translation - become saved commands and multi-step workflows that run from one shortcut in any Mac app.
-
-Free, open source, and built in public.
-
----
+Write in your native language, polish a draft, or turn a long message into a clear summary. Echoo works in supported text fields in apps such as Mail, Slack, Notion, browsers, and editors. Compatibility depends on the app's macOS Accessibility support; some apps and fields are not supported.
 
 ### How it works
 
-1. Echoo detects the current text or file
-2. Trigger a command by voice or shortcut
-3. Get the result back inline
+1. **Make it personal** — Add your background and adjust your skill instructions.
+2. **Choose your text and skill** — Select a draft and pick the skill you want to use.
+3. **Choose the context** — Enable Screen Context or, on an eligible plan, Memory when the skill needs it.
+4. **Run and review** — Trigger the skill with a shortcut or the floating rewrite button, then review the suggestion inline or in a popup.
 
-Echoo also adds a **floating rewrite button** for immediate polishing:
+Built with Swift and SwiftUI for Mac.
 
-1. Select text in any app
-2. Click the floating rewrite button
-3. Echoo rewrites it inline without interrupting your flow
+## Empower your fox
 
-**BYOK** - Bring your own API key. Your text goes directly to your chosen provider. Echoo never sees your data. Built with Swift and SwiftUI. No Electron. No web views.
+<p align="center">
+  <img src="assets/echoo-fox-skills-gold.webp" alt="Echoo's fox upgraded with golden fur and a custom-skills vest" width="220" />
+</p>
+
+Each skill you add gives your assistant a new way to help. Write your own prompt or explore community skills in the [Marketplace](https://www.echoo.ai/marketplace), review the instructions, and add the ones that fit your work. The golden fox represents the assistant you shape with your skills.
+
+For example, create a **Friendly reply** skill:
+
+> Rewrite this message so it sounds friendly and clear. Keep my meaning.
+
+Assign a shortcut, choose whether to include Screen Context, and optionally enable Memory on an eligible plan. Your rough draft now has a familiar path to a reply that sounds like you.
 
 ---
 
 ## Two Ways to Use Echoo
 
-Pick what fits you - text manipulation (rewrite, proofread, translate, summarize), Screen Context rewrite, and custom system prompts are on both.
+Start with 10 free credits, with no card or API key needed. An Echoo account is required.
 
-- **Managed** - No provider account, no API key to manage. Sign in and start immediately with 10 free credits, then subscribe for unlimited use. It's also the only way to get Memory, where commands learn from your past requests and get better at writing the way you do.
-- **BYOK** - Bring your own key from OpenAI, Anthropic, or Google, or run a local model. Free forever, and it's the only way to get voice dictation with your own AI post-processing rules, voice command execution, and local/offline models.
+| Mode | How it works | Memory |
+|------|--------------|--------|
+| **Managed AI** | Echoo handles provider setup. Pro includes 300 monthly credits for $6.99; Max includes 600 for $9.99. Business is quoted per seat. | Optional on Pro, Max, and Business |
+| **Free Mode / BYOK** | Use your own cloud API key or a locally running model. No Echoo subscription fee; cloud providers bill API usage separately. | Not included |
+
+One credit is one successful managed command. Failed commands and BYOK usage do not consume credits. Monthly credits reset each billing cycle and do not roll over. See [current plans and limits](https://www.echoo.ai/pricing).
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
@@ -81,7 +79,8 @@ Pick what fits you - text manipulation (rewrite, proofread, translate, summarize
 <details id="table-of-contents">
 <summary><strong>Table of Contents</strong></summary>
 
-- [Why Echoo](#why-echoo)
+- [Your Personal Assistant](#echoo---your-personal-ai-assistant)
+- [Empower Your Fox](#empower-your-fox)
 - [Two Ways to Use Echoo](#two-ways-to-use-echoo)
 - [Quick Start](#quick-start)
 - [Core Workflows](#core-workflows)
@@ -106,13 +105,13 @@ Pick what fits you - text manipulation (rewrite, proofread, translate, summarize
 
 1. **Download** - Grab the latest version from [echoo.ai](https://www.echoo.ai/).
 2. **Install** - Open the DMG and drag Echoo to Applications.
-3. **Set up** - Launch Echoo, grant Accessibility permission, then either sign in for the managed plan (10 free credits, no key needed) or add your own API key for BYOK (free forever).
-4. **Use it** - Select text anywhere, press a shortcut, get the result inline.
+3. **Set up** - Launch Echoo, grant Accessibility permission, then sign in and start with 10 free credits, or configure your own API key or local model in Free Mode. Add your background in Personalization.
+4. **Use it** - Select text in a supported field, run a skill with a shortcut, and review the result inline or in a popup.
 
 **Optional:**
-- **Local LLM** - Point Echoo at Ollama, LocalAI, or LiteLLM for fully private, zero-cost AI.
+- **Local LLM** - Connect a locally running model and endpoint, such as Ollama. Text inference stays on your Mac when both run locally.
 - **Voice model** - Download Parakeet v3 (~650 MB) in Settings for on-device speech recognition.
-- **Marketplace** - Browse and install community commands at [echoo.ai/marketplace](https://www.echoo.ai/marketplace).
+- **Marketplace** - Review and add community skills at [echoo.ai/marketplace](https://www.echoo.ai/marketplace).
 
 ### Permissions
 
@@ -130,11 +129,11 @@ Pick what fits you - text manipulation (rewrite, proofread, translate, summarize
 
 ### Transform text inline
 
-Echoo detects the current text automatically, runs the command you trigger by voice or shortcut, and returns the result inline. Fix grammar, proofread, rewrite in a different tone, translate, summarize, or run a custom prompt without breaking flow.
+Select text in a supported field, run a command by voice or shortcut, and review the result inline or in a popup. Fix grammar, proofread, rewrite in a different tone, translate, summarize, or run a custom prompt without breaking flow.
 
 - **Rewrite** (`⌥R` or floating button) - Proofread, fix grammar, and polish. Replaces your selection inline.
 - **Summarize** (`⌥S`) - Key points and action items in a popup.
-- **Translate** (`⌥T`) - Translate to any language without switching apps. Write in your native language and translate inline into English (or back) while Echoo keeps your tone and style - casual stays casual, formal stays formal.
+- **Translate** (`⌥T`) - Translate between languages supported by your model without switching apps. Write in your native language and translate inline into English (or back) while Echoo keeps your tone and style - casual stays casual, formal stays formal.
 - **Ask** (`⌥A`) - Ask questions about selected text. Answers in a popup.
 - **Prompt Craft** (`⌥P`) - Optimize any prompt using a multi-layer architecture.
 
@@ -180,8 +179,8 @@ In Echoo, commands are reusable system prompts that work across different inputs
 - **Per-command model** - Assign a different provider and model to each command.
 - **Claude Code Skills** - This is the new workflow. Run Claude Code Skills by voice or shortcut, skip the CLI, and get the result back on screen. When needed, Echoo still uses the right folder in the background for repo-aware work.
 - **Real skill example** - Ask `/github-trending` for a daily AI-powered summary and Echoo brings back the top repositories, what they do, and why they matter in one compact result.
-- **Screen Context** - Toggle on to attach a screenshot with any command. The AI sees your text *and* what's on screen - the only Mac rewrite tool that can do this. Uses macOS ScreenCaptureKit.
-- **Memory** - Toggle on and the command remembers your earlier requests and its own earlier results, then learns from them: your terminology and names, your tone, how long your sentences run, how much detail you keep. Each result needs a little less fixing than the last, and your company's name stops getting "corrected" out of your writing. Per command, so translation memory never bleeds into rewrite, and resettable whenever you want a clean slate. Managed plan only.
+- **Screen Context** - Toggle on to attach a screenshot with any command. The AI can use your text and the visible context you choose to include. Uses macOS ScreenCaptureKit.
+- **Memory** - Optionally reuse earlier conversation context within a command to help preserve terminology, names, and preferences. Off by default; available on Pro, Max, and Business. The AI provider retains this history until you reset it or it reaches its size limit. Each command keeps its own context.
 - **Import & export** - Share commands as `.echoo` files or download from the [marketplace](https://www.echoo.ai/marketplace).
 
 <div align="center">
@@ -200,17 +199,11 @@ Echoo does not lock you into one provider. Keep the same shortcut and command wo
 
 ### Cloud models
 
-Best for reach, speed, and the latest frontier models.
-
-| Provider | Powerful | Balanced | Fast |
-|----------|----------|----------|------|
-| **OpenAI** | GPT-5.5 | GPT-5.4 Mini | GPT-5.4 Nano |
-| **Anthropic** | Claude Opus 4.8 | Claude Sonnet 5 | Claude Haiku 4.5 |
-| **Google Gemini** | Gemini 3.5 Pro | Gemini 3.6 Flash | Gemini 3.5 Flash-Lite |
+Use your own API key with OpenAI, Anthropic, or Google Gemini. Choose a provider and model per command; available models depend on your provider and app version. Managed AI handles provider setup for you.
 
 ### Local models
 
-Best for privacy, offline use, and full control. Your data never leaves your device.
+Use a locally running model and endpoint for on-device text inference. Initial downloads and other app services may still need internet. A local proxy connected to a cloud provider sends text to that provider.
 
 | Provider | Description |
 |----------|-------------|
@@ -226,7 +219,7 @@ Each command can use a different provider and model. Switch freely per workflow.
 
 ## Default Shortcuts
 
-All shortcuts use the **Option (⌥)** key and are fully customizable in Settings.
+Most default shortcuts use the **Option (⌥)** key. Voice Launcher uses **Control (⌃)**. Shortcuts are customizable in Settings.
 
 | Shortcut | Command |
 |----------|---------|
@@ -250,7 +243,7 @@ Custom commands get their own shortcuts from a dedicated pool.
 
 ### v1.3.5 - Memory
 
-- **Memory** - Turn it on for any command and it starts learning from your past requests: your terminology and names, your tone, how long your sentences run, how much detail you keep. Each result needs a little less fixing than the last, and your company's name stops getting "corrected" out of your writing. Each command keeps its own memory, and you can reset it whenever you want a clean slate. Managed plan only.
+- **Memory** - Enable it per command on Pro, Max, or Business to reuse earlier conversation context. Keep terminology and preferences in context, and reset the history whenever you want a fresh start. Memory is off by default.
 - **Voice Launcher is off by default** - It now waits until you switch it on in Settings instead of claiming its shortcut on a fresh install.
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
@@ -260,16 +253,16 @@ Custom commands get their own shortcuts from a dedicated pool.
 ## FAQ
 
 **What is Echoo?**
-Echoo is a macOS AI shortcut layer that rewrites, proofreads, translates, and summarizes text inline in any app - triggered by voice or keyboard shortcut, with no chat window and no copy-paste.
+Echoo is your personal AI assistant for Mac. Your background, optional per-command Memory, and enabled Screen Context help it suggest wording that fits you. Rewrite, proofread, translate, summarize, or run a custom skill in supported text fields.
 
 **Is Echoo free?**
-Yes. BYOK (bring your own API key) is free forever, including text manipulation, Screen Context rewrite, custom system prompts, voice dictation with your own AI post-processing rules, and voice command execution. The managed plan (no key needed) starts with 10 free credits.
+Start with 10 free credits, with no card or API key needed. Free Mode has no Echoo subscription fee and supports your own API key or a local model. Your cloud provider bills its API usage separately. Pro, Max, and Business provide managed credits and optional Memory.
 
 **Do I need an API key to use Echoo?**
-No. Sign in to the managed plan and Echoo handles the key for you, starting with 10 free credits. If you'd rather use your own OpenAI, Anthropic, or Google key - or a local model via Ollama, LocalAI, or LiteLLM - BYOK is free forever.
+No. Managed AI handles provider setup. You can also use your own OpenAI, Anthropic, or Google key, or connect a model through Ollama, LocalAI, or LiteLLM in Free Mode.
 
-**What makes Echoo different from other AI writing tools?**
-Screen Context: Echoo can attach a screenshot to any rewrite, so the AI sees the thread, doc, or design behind your selected text - not just an isolated sentence. No other Mac text tool does this.
+**What makes Echoo personal?**
+You choose the background and instructions it uses. Optional Memory can reuse earlier context within a command, while enabled Screen Context adds the conversation or document currently visible on your screen. Custom skills let you shape the assistant around your own work.
 
 **Does Echoo work offline?**
 Yes, for voice. Dictation runs entirely on-device using NVIDIA Parakeet v3, with zero cloud dependency. Text commands need a model - either a cloud provider or a local model via Ollama, LocalAI, or LiteLLM for a fully offline setup.
@@ -283,14 +276,19 @@ On-device dictation covers 25+ languages. Translate and rewrite commands support
 
 ## Privacy
 
-Your data belongs to you.
+<p align="center">
+  <img src="assets/echoo-fox-security-lock.webp" alt="Echoo fox with a lock integrated into its chest shield" width="200" />
+</p>
 
-- **BYOK** - Bring your own API key. Text goes directly to your chosen provider. Echoo never sees your data.
-- **On-device voice** - Dictation runs entirely on your Mac using Parakeet v3. Your voice never leaves your machine.
-- **Local data** - All settings and history stay on your machine in a local database.
-- **No training** - Your text is never used to train models.
-- **Local LLM option** - With Ollama, LocalAI, or LiteLLM, everything stays on-device. Zero external API calls. Works offline.
-- **Hardened runtime** - Signed and notarized macOS app with hardened runtime enabled.
+Your text and enabled Screen Context go directly from your Mac to the AI provider handling your text. Echoo receives usage and account data, not the content of your writing.
+
+- **Managed AI and cloud BYOK** — Your provider's data policies apply. Echoo does not receive your command text.
+- **Optional Memory** — On Pro, Max, and Business, your AI provider retains conversation history for enabled commands until reset or its size limit.
+- **On-device dictation** — Speech recognition runs locally using Parakeet v3. Any subsequent cloud AI processing sends the resulting text to your provider.
+- **Local models** — Text inference stays on your Mac when both the model and endpoint run locally. A local gateway that forwards to a cloud provider still sends text to that provider.
+- **Your choice of context** — Enable Screen Context only when you want to include a screenshot with a command.
+
+Read the [privacy and data-handling details](https://www.echoo.ai/legal).
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
@@ -298,7 +296,7 @@ Your data belongs to you.
 
 ## Keep Echoo Shipping
 
-Echoo is free, open source, and built in public. If it saves you time, support the project and help fund more workflows, integrations, and polish.
+If Echoo saves you time, support the project and help fund more skills, integrations, and polish. Free Mode has no Echoo subscription fee; managed plans fund ongoing development.
 
 <p align="center">
   <a href="https://ko-fi.com/echooai"><strong>Buy me a coffee on Ko-fi</strong></a>
