@@ -5,7 +5,7 @@
 
   <p>
     <a href="https://www.echoo.ai/"><img src="https://img.shields.io/badge/macOS-14+-000000?style=for-the-badge&amp;logo=apple&amp;logoColor=white" alt="macOS 14+" /></a>
-    <a href="https://github.com/michael-elkabetz/echoo/releases"><img src="https://img.shields.io/badge/Version-2.0.0-success?style=for-the-badge" alt="Version 2.0.0" /></a>
+    <a href="https://github.com/michael-elkabetz/echoo/releases"><img src="https://img.shields.io/badge/Version-2.0.1-success?style=for-the-badge" alt="Version 2.0.1" /></a>
     <a href="https://www.echoo.ai/pricing"><img src="https://img.shields.io/badge/Try_it-10_free_credits-success?style=for-the-badge" alt="Try Echoo with 10 free credits" /></a>
   </p>
 
@@ -272,7 +272,7 @@ Custom skills get their own shortcuts from a dedicated pool.
 
 ## What's New
 
-### v2.0.0 - Your Personal AI Writing Assistant
+### v2.0.1 - Your Personal AI Writing Assistant
 
 - **Personal writing assistance** - Relevant writer background, shared Screen Context, and past conversations with Memory enabled help shape tone, wording, spelling, and detail.
 - **Tools and Skills** - Tools provide context; Skills turn it into a finished result. Commands are now called Skills throughout the app.
