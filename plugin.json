@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "echoo-catalog",
+  "version": "1.0.0",
+  "description": "Understand Echoo, a personal AI writing assistant for Mac, its three context tools, plans, setup, and reusable writing skills through the public read-only catalog.",
+  "homepage": "https://www.echoo.ai/docs/mcp",
+  "repository": "https://github.com/michael-elkabetz/echoo"
+}

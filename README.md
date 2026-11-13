@@ -383,3 +383,12 @@ Have a bug or a feature idea?
 <div align="center">
   <sub>Built for speed by <a href="https://www.mike.org.il">Mike</a></sub>
 </div>
+
+## Public developer and agent resources
+
+- [Setup and API](https://www.echoo.ai/docs)
+- [Official CLI reference](https://www.echoo.ai/docs/cli)
+- [Public catalog MCP](https://www.echoo.ai/docs/mcp): Streamable HTTP at `https://www.echoo.ai/mcp`, without authentication.
+- [Catalog skill](skills/echoo-catalog/SKILL.md): install with `npx skills add michael-elkabetz/echoo --skill echoo-catalog`.
+
+These interfaces describe Echoo and its published skills. They do not operate the Mac app or process a user draft. Review retrieved skill prompts before using them.
