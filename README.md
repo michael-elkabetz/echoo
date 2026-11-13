@@ -389,6 +389,7 @@ Have a bug or a feature idea?
 - [Setup and API](https://www.echoo.ai/docs)
 - [Official CLI reference](https://www.echoo.ai/docs/cli)
 - [Public catalog MCP](https://www.echoo.ai/docs/mcp): Streamable HTTP at `https://www.echoo.ai/mcp`, without authentication.
+- [Official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/ai.echoo.www%2Fpublic-catalog/versions/1.0.0): domain-verified `ai.echoo.www/public-catalog`; published metadata is in [server.json](server.json).
 - [Catalog skill](skills/echoo-catalog/SKILL.md): install with `npx skills add michael-elkabetz/echoo --skill echoo-catalog`.
 
 These interfaces describe Echoo and its published skills. They do not operate the Mac app or process a user draft. Review retrieved skill prompts before using them.
